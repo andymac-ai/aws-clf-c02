@@ -1,0 +1,193 @@
+Notes for the Exam
+
+Domains
+  Cloud Concepts
+  Security & Compliance
+  Cloud Technology & Services
+  Billing, Pricing, & Support
+
+Services
+
+IAM
+  IAM MFA
+  AWS Access Keys
+  CLI
+  SDK
+  CloudShell
+
+EC2 (Elastic Compute)
+  EC2 Instance Connect
+
+EC2 Instance Storage
+  EBS
+  AMI
+  EFS
+
+ELB (Elastic Load Balancing)
+ASG (Auto Scaling Groups)
+
+Amazon S3
+  AWS Snow
+  Storage Gateway
+
+Databases
+  RDS
+  Elasticache
+  DynamoDB
+  Redshift
+  EMR
+  Quicksight
+  DocumentDB
+  Neptune
+  Timestream
+  OLDB
+  Managed Blockchain
+  Glue
+  DMS
+
+Other Compute Services:
+  ECS
+  Lambda
+  API Gateway
+  Batch
+  Lightsail
+
+Deployments and Managing Infrastucture at Scale
+  CloudFormation
+  CDK
+  Beanstalk
+  CodeDeploy
+  CodeCommit
+  CodeBuild
+  CodePipeline 
+  Code Artifact
+  SSM (Systems Manager)
+  SSM Session Manager
+  SSM Parameter Store
+
+Global Infrastructure
+  Route 53
+  CloudFront
+  S3 Transfer Acceleration
+  AWS Global Accelerator
+  AWS Outposts
+  AWS WaveLength
+  AWS Local Zones
+
+Cloud Integrations
+  SQS
+  Kinesis
+  SNS
+  Amazon Mq
+
+Cloud Monitoring
+  CloudWatch Metrics
+  CloudWatch Alarms
+  Cloudwatch Logs
+  EventBridge
+  CloudTrail
+  X-Ray
+  CodeGuru
+  AWS Health Dashboard
+
+Networking
+  VPC (Subnet, Internet Gateway, NAT Gateways, Flow Logs, Peering)
+  NACL
+  PrivateLink
+  Client VPN
+  Transit Gateway
+
+Security and Compliance
+  WAF
+  Shield
+  AWS Network Firewall
+  AWS Firewall Manager
+  KMS
+  CloudHSM
+  ACM (AWS Certificate Manager)
+  Secrets Manager
+  Artifact
+  GuardDuty
+  Inspector
+  Config
+  Macie
+  SecurityHub
+  Amazon Detective
+  AWS Abuse
+  Root User Privileges
+  IAM Access Analyzer
+
+Machine Learning
+  Rekognition
+  Transcribe
+  Polly
+  Translate
+  Lex
+  Connect
+  Comprehend
+  SageMaker
+  Forecast
+  Kendra
+  Personalize
+  Textract
+
+Account Management
+  Organizations
+  AWS Control Tower
+  AWS RAM (Resource Access Manager)
+  AWS Service Catalog
+  Pricing Models
+  Savings Plan
+  Compute Optimizer
+  Billing and Costing Tools
+  Pricing calculator
+  Billing Dashboard
+  Cost Allocation Tags
+  Reports
+  Billing Alarms
+  AWS Budgets
+  AWS Cost Anomaly Detection
+  AWS Service Quotas
+  AWS Trusted Advisor
+  Support Plans
+
+Advanced Identity
+  STS (Security Token Service)
+  Cognito
+  Directory Services
+  IAM Identity Center
+
+Other Services
+  WorkSpaces
+  AppStream 2.0
+  IoT Core
+  Elastic Transcoder
+  AppSync
+  Amplify
+  AWS Application Composer
+  Device Farm
+  AWS Backup
+  Disater Recovery Strategies
+  AWS DRS (Elastic Disaster Recovery)
+  AWS DataSync
+  Cloud Migration Strategies - 7R's
+  Application Discovery Service
+  Application Migration Service
+  AWS Migration Evaluator
+  AWS Migration Hub
+  AWS Fault Injection Simulator (FIS)
+  Step Functions
+  Ground Station
+  AWS Pinpoint
+
+AWS Architecting
+  AWS WhitePapers Well-Architected Framework
+  Pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, Sustainability
+  AWS Well-Architected Tool
+  AWS Customer Carbon Footprint Tool
+  AWS CAF (Cloud Adoption Framework)
+  AWS Ecosystem
+  AWS IO
+  re:Post
+  AWS Knowledge Center
+  AWS Managed Services
