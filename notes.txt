@@ -15,18 +15,18 @@ IAM (Identity and Access Management) - manage users access, controls, and permis
   SDK (Software Development Kit) - contains tools to develop applications with AWS with different programming languages (eg JS, Java, React, Python, etc.)
   CloudShell - online command line shell environment, preloaded with tools and automatically updated
 
-EC2 (Elastic Compute)
-  EC2 Instance Connect
+EC2 (Elastic Compute Cloud) - cloud-based cloud computation service
+  EC2 Instance Connect - tool to connect to an EC2 instance
 
-EC2 Instance Storage
-  EBS
-  AMI
-  EFS
+EC2 Instance Storage - storage options to optimize performance vs. cost
+  EBS (Elastic Block Store) - block level storage volumes to EC2 instances, multiple EBS volumes can be attached to each EC2 instance
+  AMI (Amazon Machine Image) - creates images (templates) of AWS EC2 instances to be used as masters for instance pools
+  EFS (Elastic File System) - auto-scaling file system that grows/shrinks as files are added/removed
 
-ELB (Elastic Load Balancing)
-ASG (Auto Scaling Groups)
+ELB (Elastic Load Balancing) - automatically balances application traffic to a different targets and appliances across multiple availabiliy zones
+ASG (Auto Scaling Groups) - each group contains multiple EC2 instances and provides autoscaling based on needs, only horizontal (number of instances, not performance of instances)
 
-Amazon S3
+Amazon S3 - 
   AWS Snow
   Storage Gateway
 
