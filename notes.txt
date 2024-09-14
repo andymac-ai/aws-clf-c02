@@ -8,12 +8,12 @@ Domains
 
 Services
 
-IAM
-  IAM MFA
-  AWS Access Keys
-  CLI
-  SDK
-  CloudShell
+IAM (Identity and Access Management) - manage users access, controls, and permissions for users within the organization
+  IAM MFA (Multi-Factor Authorization) - makes a user have multiple devices to prove their identity
+  AWS Access Keys - Long-term credentials for individual IAM accounts
+  CLI (Command Line Interface) - tool to manage AWS tools, provides a command line interface to configure and control multiple services
+  SDK (Software Development Kit) - contains tools to develop applications with AWS with different programming languages (eg JS, Java, React, Python, etc.)
+  CloudShell - online command line shell environment, preloaded with tools and automatically updated
 
 EC2 (Elastic Compute)
   EC2 Instance Connect
