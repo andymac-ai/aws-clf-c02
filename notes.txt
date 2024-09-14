@@ -12,30 +12,49 @@ IAM (Identity and Access Management) - manage users access, controls, and permis
   IAM MFA (Multi-Factor Authorization) - makes a user have multiple devices to prove their identity
   AWS Access Keys - Long-term credentials for individual IAM accounts
   CLI (Command Line Interface) - tool to manage AWS tools, provides a command line interface to configure and control multiple services
+    usecase: requires Access keys for users to access
   SDK (Software Development Kit) - contains tools to develop applications with AWS with different programming languages (eg JS, Java, React, Python, etc.)
   CloudShell - online command line shell environment, preloaded with tools and automatically updated
 
-EC2 (Elastic Compute Cloud) - cloud-based cloud computation service
+EC2 (Elastic Compute Cloud) - cloud-based cloud computation service, regional service
+  usecase: can launch a new database in AWS where the customer assumes the responsibility and management of the guest operating system, including updates and security patches
+
   EC2 Instance Connect - tool to connect to an EC2 instance
+
+  EC2 Dedicated Host: a physical server with EC2 instance capacity fully dedicated to your use
+
+  EC2 Spot Instances: instances from unused EC2 capacity in the AWS cloud
+    usecase: 90% cheaper with less performance than On-Demand Instances 
 
 EC2 Instance Storage - storage options to optimize performance vs. cost
   EBS (Elastic Block Store) - block level storage volumes to EC2 instances, multiple EBS volumes can be attached to each EC2 instance
+    usecase: rapidly changing data
   AMI (Amazon Machine Image) - creates images (templates) of AWS EC2 instances to be used as masters for instance pools
-  EFS (Elastic File System) - auto-scaling file system that grows/shrinks as files are added/removed
+  EFS (Elastic File System) - auto-scaling file system that grows/shrinks as files are added/removed, regional service
 
 ELB (Elastic Load Balancing) - automatically balances application traffic to a different targets and appliances across multiple availabiliy zones
+  Application Load Balancer - best suited for load balancing of HTTP and HTTPS traffic and provides advanced request routing targeted at the delivery of modern application architectures, including microservices and containers
+  Network Load Balancer - best suited for load balancing of Transmission Control Protocol (TCP), User Datagram Protocol (UDP), and Transport Layer Security (TLS) traffic where extreme performance is required
+  Gateway Load Balancer - provides both Layer 3 gateway and Layer 4 load balancing capabilities. It is a transparent bump-in-the-wire device that does not change any part of the packet
 ASG (Auto Scaling Groups) - each group contains multiple EC2 instances and provides autoscaling based on needs, only horizontal (number of instances, not performance of instances)
 
 Amazon S3 - object storage service, designed for 99.999999999% (11 9's) of durability and stores millions of customers data
+  usecase: Bucket Policy allows specific users access to bucket
   AWS Snow - provides computation at the edge or migration from edge devices to the cloud
     AWS Snowcone - small, portable device for local transfer and physical shipment an AWS facility
     AWS Snowball - larger, portable device can be optimized for storage or compute
 
 Databases
   RDS (Relational Database Services) - managed relational database service for MySQL, PostgreSQL, MariaDB, Oracle BYOL, or SQL server
+    usecase: simplifies the management of time-consuming database administration tasks; Makes it easy to set up, operate, and scale a relational database
+    usecase: rapidly changing data
   Elasticache - fast, in-memory data store for use as a database, cache, message broker
-  DynamoDB - fully managed proprietary NoSQL database 
+    usecase: store the results of I/O-intensive SQL database queries to improve application performance
+    usecase: lets you deploy and run Memcached or Redis cache server nodes in the cloud
+  DynamoDB - fully managed proprietary NoSQL database
+    usecase: highly scalable, used for nonrelational data
   Redshift - petabyte-scale data warehouse and exabyte-scale data lake analytics
+    usecase: best used for OLAP (online analytical processing) workloads
   EMR (Elastic MapReduce) - petabyte data processing, interactive analytics and machine learning, uses open source frameworks including Apache Spark, Apache Hive, and Presto
   Quicksight - business analytics tool
   DocumentDB - JSON document database
@@ -45,6 +64,8 @@ Databases
   Managed Blockchain - allows user to build resilient Web3 application on both public and private blockchains
   Glue - serverless data integration service, allows users to discover, prepare, move, and integrate data from multiple sources
   DMS (Database Migration Service) - assists in moving databases and workloads into AWS
+  Aurora - A fully managed relational database engine that’s compatible with MySQL and PostgreSQL
+    usecase: 5x faster than standard MySQL and 3x faster than PostgreSQL, highly scalable
 
 Other Compute Services:
   ECS (Elastic Container Service) - allows for managed container orchestration to easliy deploy, manage, and scale containerized applications 
@@ -57,18 +78,18 @@ Deployments and Managing Infrastucture at Scale
   CloudFormation
   CDK
   Beanstalk
-  CodeDeploy
+  CodeDeploy - automates code deployments to any instance, including Amazon EC2 instances and instances running on-premises
   CodeCommit
   CodeBuild
   CodePipeline 
   Code Artifact
-  SSM (Systems Manager)
+  SSM (Systems Manager) - manage servers running on AWS and in your on-premises data center through a single interface
   SSM Session Manager
   SSM Parameter Store
 
 Global Infrastructure
-  Route 53
-  CloudFront
+  Route 53 - a highly available and scalable cloud Domain Name System (DNS) web service
+  CloudFront - web service that speeds up distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users
   S3 Transfer Acceleration
   AWS Global Accelerator
   AWS Outposts
@@ -82,17 +103,19 @@ Cloud Integrations
   Amazon Mq
 
 Cloud Monitoring
-  CloudWatch Metrics
-  CloudWatch Alarms
-  Cloudwatch Logs
+  CloudWatch - a repository for metrics and logs
+    CloudWatch Metrics
+    CloudWatch Alarms
+    Cloudwatch Logs
   EventBridge
-  CloudTrail
+  CloudTrail - a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account
   X-Ray
   CodeGuru
   AWS Health Dashboard
 
 Networking
-  VPC (Subnet, Internet Gateway, NAT Gateways, Flow Logs, Peering)
+  Amazon VPC (Virtual Private Cloud) - a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define
+    usecase: manage components of VPC (Subnet, Internet Gateway, NAT Gateways, Elastic IPs, Flow Logs, Peering); control the security of your VPC by configuring the Network ACLs and Security Groups
   NACL
   PrivateLink
   Client VPN
@@ -107,7 +130,7 @@ Security and Compliance
   CloudHSM
   ACM (AWS Certificate Manager)
   Secrets Manager
-  Artifact
+  Artifact - contains compliance-related documents in AWS such as ISO certifications, Payment Card Industry (PCI), and Service Organization Control (SOC) reports
   GuardDuty
   Inspector
   Config
@@ -134,23 +157,30 @@ Machine Learning
 
 Account Management
   Organizations
-  AWS Control Tower
+  AWS Control Tower - tool to create or manage multi-account AWS environments with best practices
+    usecase: an easy way to establish a landing zone that implements an AWS well-architected, multi-account environment and applies the AWS best practices
   AWS RAM (Resource Access Manager)
   AWS Service Catalog
   Pricing Models
   Savings Plan
   Compute Optimizer
   Billing and Costing Tools
-  Pricing calculator
+  Pricing calculator - estimate a bill by entering planned usages by service
   Billing Dashboard
   Cost Allocation Tags
   Reports
-  Billing Alarms
-  AWS Budgets
+  Amazon CloudWatch - Billing Alarms - monitor your estimated AWS charges
+  AWS Budgets - a tool to set custom budgets that alert you when your costs or usage exceed (or are forecasted to exceed) your budgeted amount
+    usecase: 
+  AWS Cost Explorer - lets you visualize, understand, and manage your AWS costs and usage over time
   AWS Cost Anomaly Detection
   AWS Service Quotas
-  AWS Trusted Advisor
-  Support Plans
+  AWS Trusted Advisor - an online tool that provides you with real-time guidance to help you provision your resources following AWS best practices
+    5 categories: Cost Optimization, Performance, Security, Fault Tolerance, Service Limits
+    usecase: capable of inspecting your AWS environment and making recommendations to lower expenditures, improve system performance and reliability, and close security gaps
+  Support Plans - 
+    Business: most cost effective support API access
+  Consolodated Billing - one bill for multiple accounts, share the volume pricing and Reserved Instance discounts by combining the usage across all accounts in the organization
 
 Advanced Identity
   STS (Security Token Service)
@@ -180,15 +210,36 @@ Other Services
   Step Functions
   Ground Station
   AWS Pinpoint
+  AWS Partner Network (APN) - network focused on helping partners build successful AWS-based businesses to drive superb customer experiences
+    APN Consulting Partners - professional services firms that help customers of all sizes design, architect, migrate, or build new applications on AWS
+    APN Technology Partners - provide software solutions that are either hosted on or integrated with the AWS platform
 
 AWS Architecting
   AWS WhitePapers Well-Architected Framework
   Pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, Sustainability
   AWS Well-Architected Tool
   AWS Customer Carbon Footprint Tool
-  AWS CAF (Cloud Adoption Framework)
+  AWS CAF (Cloud Adoption Framework) - a comprehensive guide designed to help organizations effectively plan and implement their cloud adoption strategies
+    business perspective capabilities: Strategy Management, Product Management, Business Insights, Portfolio Management, Strategic Partnership, Data Science, Innovation Management, Data Monetization
+    security perspective: supports the company data and cloud workloads’ confidentiality, integrity, and availability
+  AWS Professional Services - shares a collection of offerings to help you achieve specific outcomes related to enterprise cloud adoption
   AWS Ecosystem
   AWS IO
   re:Post
   AWS Knowledge Center
   AWS Managed Services
+
+Shared Responcibility Model - Respnsibility between AWS and Client (you)
+  Cliant (security "IN" the cloud):
+    Customer Data
+    Platforms, Application, Identity and Access Mangement
+    Client-side Data Encryption and Data Itegrity Authentication
+    Server-side Encryption
+    Network Trafffic Protection
+  AWS (security "OF" the cloud):
+    Compute
+    Storage
+    Database Networking
+    AWS Global Infrastructure (Availability Zones, Regions, Edge Locations)
+  Both:
+    Awareness and training
