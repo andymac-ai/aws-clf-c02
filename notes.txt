@@ -26,31 +26,32 @@ EC2 Instance Storage - storage options to optimize performance vs. cost
 ELB (Elastic Load Balancing) - automatically balances application traffic to a different targets and appliances across multiple availabiliy zones
 ASG (Auto Scaling Groups) - each group contains multiple EC2 instances and provides autoscaling based on needs, only horizontal (number of instances, not performance of instances)
 
-Amazon S3 - 
-  AWS Snow
-  Storage Gateway
+Amazon S3 - object storage service, designed for 99.999999999% (11 9's) of durability and stores millions of customers data
+  AWS Snow - provides computation at the edge or migration from edge devices to the cloud
+    AWS Snowcone - small, portable device for local transfer and physical shipment an AWS facility
+    AWS Snowball - larger, portable device can be optimized for storage or compute
 
 Databases
-  RDS
-  Elasticache
-  DynamoDB
-  Redshift
-  EMR
-  Quicksight
-  DocumentDB
-  Neptune
-  Timestream
-  OLDB
-  Managed Blockchain
-  Glue
-  DMS
+  RDS (Relational Database Services) - managed relational database service for MySQL, PostgreSQL, MariaDB, Oracle BYOL, or SQL server
+  Elasticache - fast, in-memory data store for use as a database, cache, message broker
+  DynamoDB - fully managed proprietary NoSQL database 
+  Redshift - petabyte-scale data warehouse and exabyte-scale data lake analytics
+  EMR (Elastic MapReduce) - petabyte data processing, interactive analytics and machine learning, uses open source frameworks including Apache Spark, Apache Hive, and Presto
+  Quicksight - business analytics tool
+  DocumentDB - JSON document database
+  Neptune - graph database for billions of relationships
+  Timestream - time series databse
+  QLDB (Quantum Ledger Database) - ledger database that provides transparent, immutable, and cryptographically verifiable transaction log
+  Managed Blockchain - allows user to build resilient Web3 application on both public and private blockchains
+  Glue - serverless data integration service, allows users to discover, prepare, move, and integrate data from multiple sources
+  DMS (Database Migration Service) - assists in moving databases and workloads into AWS
 
 Other Compute Services:
-  ECS
-  Lambda
-  API Gateway
-  Batch
-  Lightsail
+  ECS (Elastic Container Service) - allows for managed container orchestration to easliy deploy, manage, and scale containerized applications 
+  Lambda - serveless computing, runs code in many different languages (Node.js, Python, Go, Java, etc) and manages resources, scaling to de´ploy the functinos
+  API Gateway - fully managed service to allow developers to create, publish, maintain, monitor, and secure API's at any scale
+  Batch - plans, schedules, and runs containerized batch ML, simulation, and analytics workloads across the full range of AWS compute offerings
+  Lightsail - a virtual private server used to store data, run code, build web-based aplications
 
 Deployments and Managing Infrastucture at Scale
   CloudFormation
