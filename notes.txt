@@ -76,8 +76,8 @@ Other Compute Services:
 
 Deployments and Managing Infrastucture at Scale
   CloudFormation
-  CDK
-  Beanstalk
+  CDK - open-source software development framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation
+  Elastic Beanstalk - PaaS, runs application code and handles deployment and serving to users
   CodeDeploy - automates code deployments to any instance, including Amazon EC2 instances and instances running on-premises
   CodeCommit
   CodeBuild
