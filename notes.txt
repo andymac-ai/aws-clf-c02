@@ -187,27 +187,28 @@ Advanced Identity
   IAM Identity Center - streamlines and simplifies workforce user access to applications or AWS accounts 
 
 Other Services
-  WorkSpaces
-  AppStream 2.0
-  IoT Core
-  Elastic Transcoder
-  AppSync
-  Amplify
-  AWS Application Composer
-  Device Farm
-  AWS Backup
+  AWS WorkSpaces - a cloud-based virtual desktop that can act as a replacement for a traditional desktop
+  AppStream 2.0 - a fully managed application streaming service that provides users instant access to their desktop applications from anywhere
+  AWS IoT Core - a fully integrated feature that enables IoT developers to easily provision, onboard, and monitor Amazon Sidewalk devices through AWS IoT Core
+  Elastic Transcoder - media transcoding in the cloud and designed to be a highly scalable, easy to use and a cost effective way for developers and businesses to convert (or “transcode”) media files from their source format into versions that will playback on devices like smartphones, tablets and PCs
+  AppSync - allows applications to access exactly the data needed
+    usecase: create a flexible API to securely access, manipulate, and combine data from multiple sources and pay only for requests to your API and for real-time messages delivered to connected clients
+  AWS Amplify - a unified development platform that provides a seamless bridge between front-end and back-end development
+  AWS Application Composer - streamline and accelerate the architecture, development, and iteration of modern applications
+  AWS Device Farm - an application testing service that lets you improve the quality of your web and mobile apps by testing them across an extensive range of desktop browsers and real mobile devices
+  AWS Backup - a fully-managed service that makes it easy to centralize and automate data protection across AWS services, in the cloud, and on premises
   Disater Recovery Strategies
-  AWS DRS (Elastic Disaster Recovery)
-  AWS DataSync
-  Cloud Migration Strategies - 7R's
-  Application Discovery Service
-  Application Migration Service
-  AWS Migration Evaluator
-  AWS Migration Hub
-  AWS Fault Injection Simulator (FIS)
-  Step Functions
-  Ground Station
-  AWS Pinpoint
+  AWS DRS (Elastic Disaster Recovery) - automatically converts your servers to boot and run natively on AWS when you launch instances for drills or recovery
+  AWS DataSync - a secure, online service that automates and accelerates moving data between on premises and AWS Storage services
+  Cloud Migration Strategies (7R's) - refactor, replatform, repurchase, rehost, relocate, retain, and retire
+  Application Discovery Service - helps plan application migration projects by automatically identifying servers, virtual machines (VMs), and network dependencies in on-premises data centers
+  Application Migration Service - allows you to migrate physical, virtual, and cloud source servers to AWS for a variety of supported operating systems (OS)
+  AWS Migration Evaluator - gives a clear baseline of what an organization is running at present and what its projected AWS costs will be, measured on-premises provisioning and utilization
+  AWS Migration Hub - provides a single place to discover existing servers, plan migrations, and track the status of each application migration
+  AWS Fault Injection Simulator (FIS) - a systematic and controlled process of introducing faults or errors into a system to observe its behavior under adverse conditions
+  Step Functions - a visual workflow service that helps developers use AWS services to build distributed applications, automate processes, orchestrate microservices, and create data and machine learning (ML) pipelines.
+  AWS Ground Station - control satellite communications, process data, and scale your operations without having to worry about building or managing your own ground station infrastructure
+  AWS Pinpoint - an AWS service that you can use to engage with your customers across multiple messaging channels
   AWS Partner Network (APN) - network focused on helping partners build successful AWS-based businesses to drive superb customer experiences
     APN Consulting Partners - professional services firms that help customers of all sizes design, architect, migrate, or build new applications on AWS
     APN Technology Partners - provide software solutions that are either hosted on or integrated with the AWS platform
