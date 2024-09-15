@@ -119,24 +119,25 @@ Networking
   Transit Gateway - connects your Amazon VPCs and on-premises networks through a central hub, simplifies the network and prevents complex peering relationships, Transit Gateway acts as a highly scalable cloud router—each new connection is made only once
 
 Security and Compliance
-  WAF
-  Shield
-  AWS Network Firewall
-  AWS Firewall Manager
-  KMS
-  CloudHSM
-  ACM (AWS Certificate Manager)
-  Secrets Manager
+  WAF (web access firewall) - protect web applications from attacks by allowing you to configure rules that allow, block, or monitor (count) web requests based on conditions that you define
+  AWS Shield - a managed distributed denial of service (DDoS) protection service that safeguards applications running on AWS
+  AWS Network Firewall - a stateful, managed, network firewall and intrusion detection and prevention service for an Amazon VPC
+  AWS Firewall Manager - a security management service which allows you to centrally configure and manage firewall rules across your accounts and applications in AWS Organization
+  KMS (Key Management Service) - gives you centralized control over the cryptographic keys used to protect your data
+  AWS CloudHSM (Cloud Hardware Security Module) - a cryptographic service for creating and maintaining hardware security modules
+  ACM (AWS Certificate Manager) - a service that allows developers to provision, manage, and deploy public and private Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates for use with AWS services and internal connected resources
+  Secrets Manager - encrypts at rest using encryption keys owned and stored in AWS KMS
   Artifact - contains compliance-related documents in AWS such as ISO certifications, Payment Card Industry (PCI), and Service Organization Control (SOC) reports
-  GuardDuty
-  Inspector
-  Config
-  Macie
-  SecurityHub
-  Amazon Detective
-  AWS Abuse
-  Root User Privileges
-  IAM Access Analyzer
+  AWS GuardDuty - automatically manage resource utilization based on the overall activity levels within AWS accounts, workloads, and data
+  AWS Inspector - continually scans AWS workloads for software vulnerabilities and unintended network exposure
+  AWS Config - helps user record configuration changes to software within EC2 instances in the AWS account and also virtual machines (VMs) or servers in the on-premises environment
+  AWS Macie - a data security service that discovers sensitive data using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks
+  AWS SecurityHub - allows organizations to create custom insights and compliance checks specific to their environment
+  Amazon Detective - helps analyze, investigate, and quickly identify the root cause of security findings or suspicious activities
+  AWS Abuse - addresses many different types of potentially abusive activity such as phishing, malware, spam, and denial of service (DoS)/ distributed denial of service (DDoS) incidents
+  Root User Privileges - complete access to all AWS services and resources in your AWS account
+    usecase: should only be used when absolutely necessary
+  IAM Access Analyzer - gives visibility into unused access across your AWS organization and recommendations to help you remediate unused access
 
 Machine Learning
   Rekognition - an image recognition service that detects objects, scenes, activities, landmarks, faces, dominant colors, and image quality
