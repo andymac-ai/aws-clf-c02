@@ -154,25 +154,25 @@ Machine Learning
   Textract - extracts content and context from text data
 
 Account Management
-  Organizations
+  AWS Organizations - centrally manages and governs the environment as it grows and scales AWS resources
   AWS Control Tower - tool to create or manage multi-account AWS environments with best practices
     usecase: an easy way to establish a landing zone that implements an AWS well-architected, multi-account environment and applies the AWS best practices
-  AWS RAM (Resource Access Manager)
-  AWS Service Catalog
-  Pricing Models
-  Savings Plan
-  Compute Optimizer
-  Billing and Costing Tools
+  AWS RAM (Resource Access Manager) - helps securely share resources across AWS accounts, within an organization or organizational units (OUs) in AWS Organizations, and with IAM roles and IAM users for supported resource types
+  AWS Service Catalog API - provides programmatic control over all end-user actions as an alternative to using the AWS Management Console
+  Pricing Models - 
+  Savings Plan - 
+  Compute Optimizer - a service that analyzes your AWS resources' configuration and utilization metrics to provide you with rightsizing recommendations
+  Billing and Costing Tools - 
   Pricing calculator - estimate a bill by entering planned usages by service
-  Billing Dashboard
-  Cost Allocation Tags
+  AWS Billing Dashboard - allows you to view all previous payments, access AWS credits, and consolidate bills
+  Cost Allocation Tags - organizes resources, cost allocation tags to track AWS costs on a detailed level
   Reports
   Amazon CloudWatch - Billing Alarms - monitor your estimated AWS charges
   AWS Budgets - a tool to set custom budgets that alert you when your costs or usage exceed (or are forecasted to exceed) your budgeted amount
     usecase: 
   AWS Cost Explorer - lets you visualize, understand, and manage your AWS costs and usage over time
-  AWS Cost Anomaly Detection
-  AWS Service Quotas
+  AWS Cost Anomaly Detection - monitors spending patterns to detect anomalous spend and provide root cause analysis
+  AWS Service Quotas - enables the view and manage your quotas from a central location
   AWS Trusted Advisor - an online tool that provides you with real-time guidance to help you provision your resources following AWS best practices
     5 categories: Cost Optimization, Performance, Security, Fault Tolerance, Service Limits
     usecase: capable of inspecting your AWS environment and making recommendations to lower expenditures, improve system performance and reliability, and close security gaps
