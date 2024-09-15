@@ -142,18 +142,18 @@ Security and Compliance
   IAM Access Analyzer
 
 Machine Learning
-  Rekognition
-  Transcribe
-  Polly
-  Translate
-  Lex
-  Connect
-  Comprehend
-  SageMaker
-  Forecast
-  Kendra
-  Personalize
-  Textract
+  Rekognition - an image recognition service that detects objects, scenes, activities, landmarks, faces, dominant colors, and image quality
+  Transcribe - an automatic speech recognition service that uses machine learning models to convert audio to text
+  Polly - a service that converts text into lifelike speech
+  Translate - a service that translates text between languages
+  Lex - a voice based virtual assitant or chat bot
+  Connect - acts as a link between different Machine Learning services to to provide infrastructure 
+  Comprehend - sort or collect text documents by subjects or tags
+  SageMaker - build, train and deploy ML models at scale using tools like notebooks, debuggers, profilers, pipelines, MLOps, and more – all in one integrated development environment (IDE)
+  Forecast - a service that handles time series data and predicts future trends
+  Kendra - a search service that uses Natural Language Processing and machine learning to return more complex queries
+  Personalize - uses your data to generate item recommendations for your users
+  Textract - extracts content and context from text data
 
 Account Management
   Organizations
