@@ -181,10 +181,10 @@ Account Management
   Consolodated Billing - one bill for multiple accounts, share the volume pricing and Reserved Instance discounts by combining the usage across all accounts in the organization
 
 Advanced Identity
-  STS (Security Token Service)
-  Cognito
-  Directory Services
-  IAM Identity Center
+  STS (Security Token Service) - a tool that provides temporary access to IAM roles with their own permissions
+  AWS Cognito - support federated authentication, profile data sync store and AWS access token distribution without writing any backend code
+  AWS Directory Services - provides multiple directory choices for customers who want to use existing Microsoft AD or Lightweight Directory Access Protocol (LDAP)–aware applications in the cloud
+  IAM Identity Center - streamlines and simplifies workforce user access to applications or AWS accounts 
 
 Other Services
   WorkSpaces
