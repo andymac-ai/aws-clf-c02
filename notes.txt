@@ -18,11 +18,8 @@ IAM (Identity and Access Management) - manage users access, controls, and permis
 
 EC2 (Elastic Compute Cloud) - cloud-based cloud computation service, regional service
   usecase: can launch a new database in AWS where the customer assumes the responsibility and management of the guest operating system, including updates and security patches
-
   EC2 Instance Connect - tool to connect to an EC2 instance
-
   EC2 Dedicated Host: a physical server with EC2 instance capacity fully dedicated to your use
-
   EC2 Spot Instances: instances from unused EC2 capacity in the AWS cloud
     usecase: 90% cheaper with less performance than On-Demand Instances 
 
@@ -97,10 +94,10 @@ Global Infrastructure
   AWS Local Zones - allow for the placement of resources near end users
 
 Cloud Integrations
-  SQS
-  Kinesis
-  SNS
-  Amazon Mq
+  SQS (Simple Queue Service) - a service to send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available
+  Kinesis - process real-time data, such as video, audio, application logs, website clickstreams, and IoT telemetry data, for machine learning (ML), analytics, and other applications
+  SNS (Simple Notification Service) - a service that makes it easy to set up, operate, and send notifications from the cloud
+  Amazon MQ - a managed message broker service for Apache ActiveMQ Classic and RabbitMQ that streamlines setup, operation, and management of message brokers on AWS
 
 Cloud Monitoring
   CloudWatch - a repository for metrics and logs
