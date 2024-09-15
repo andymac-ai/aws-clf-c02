@@ -113,10 +113,10 @@ Cloud Monitoring
 Networking
   Amazon VPC (Virtual Private Cloud) - a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define
     usecase: manage components of VPC (Subnet, Internet Gateway, NAT Gateways, Elastic IPs, Flow Logs, Peering); control the security of your VPC by configuring the Network ACLs and Security Groups
-  NACL
-  PrivateLink
-  Client VPN
-  Transit Gateway
+  NACL (Network Access Control List) - an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets
+  PrivateLink - provides private connectivity between VPCs, supported AWS services, and your on-premises networks without exposing your traffic to the public internet
+  Client VPN - a fully-managed remote access VPN solution used by your remote workforce to securely access resources within both AWS and your on-premises network
+  Transit Gateway - connects your Amazon VPCs and on-premises networks through a central hub, simplifies the network and prevents complex peering relationships, Transit Gateway acts as a highly scalable cloud router—each new connection is made only once
 
 Security and Compliance
   WAF
