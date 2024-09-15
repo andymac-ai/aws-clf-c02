@@ -75,17 +75,17 @@ Other Compute Services:
   Lightsail - a virtual private server used to store data, run code, build web-based aplications
 
 Deployments and Managing Infrastucture at Scale
-  CloudFormation
+  CloudFormation - a service that enables users to model and manage infrastructure resources in an automated and secure manner, developers can define and provision AWS infrastructure resources using a JSON- or YAML-formatted infrastructure as code template
   CDK - open-source software development framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation
   Elastic Beanstalk - PaaS, runs application code and handles deployment and serving to users
   CodeDeploy - automates code deployments to any instance, including Amazon EC2 instances and instances running on-premises
-  CodeCommit
-  CodeBuild
-  CodePipeline 
-  Code Artifact
+  CodeCommit - a scalable versioning control system for developers, similar to git (obsoleted 2024)
+  CodeBuild - a fully managed continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy
+  CodePipeline - a continuous delivery service that enables you to model, visualize, and automate the steps required to release your software
+  Code Artifact - a secure, highly scalable, managed artifact repository service that helps organizations to store and share software packages for application development
   SSM (Systems Manager) - manage servers running on AWS and in your on-premises data center through a single interface
-  SSM Session Manager
-  SSM Parameter Store
+  SSM Session Manager - manage your Amazon Elastic Compute Cloud (Amazon EC2) instances, edge devices, on-premises servers, and virtual machines (VMs)
+  SSM Parameter Store - provides secure, hierarchical storage for configuration data management and secrets management
 
 Global Infrastructure
   Route 53 - a highly available and scalable cloud Domain Name System (DNS) web service
