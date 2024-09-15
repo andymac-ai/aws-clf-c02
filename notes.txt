@@ -101,14 +101,14 @@ Cloud Integrations
 
 Cloud Monitoring
   CloudWatch - a repository for metrics and logs
-    CloudWatch Metrics
-    CloudWatch Alarms
-    Cloudwatch Logs
-  EventBridge
+    CloudWatch Metrics - essential for ensuring optimal performance and efficient resource utilization, provides insights to AWS Services allowing for real time tracking of health/performance/usage patterns
+    CloudWatch Alarms - a monitoring tool that helps you create alarms on your AWS Resouces and AWS Services
+    Cloudwatch Logs - centralizes the logs from all of your systems, applications, and AWS services that you use, in a single, highly scalable service
+  EventBridge - a service that provides real-time access to changes in data in AWS services, your own applications, and software as a service (SaaS) applications without writing code
   CloudTrail - a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account
-  X-Ray
-  CodeGuru
-  AWS Health Dashboard
+  X-Ray - helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture
+  CodeGuru - analyzes the application runtime performance and using machine learning, provides recommendations on ways that could speed up the application
+  AWS Health Dashboard - can be used to learn about AWS Health events that affect AWS services or the AWS account
 
 Networking
   Amazon VPC (Virtual Private Cloud) - a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define
