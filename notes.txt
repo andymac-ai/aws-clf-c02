@@ -213,22 +213,21 @@ Other Services
     APN Technology Partners - provide software solutions that are either hosted on or integrated with the AWS platform
 
 AWS Architecting
-  AWS WhitePapers Well-Architected Framework
-  Pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, Sustainability
-  AWS Well-Architected Tool
-  AWS Customer Carbon Footprint Tool
+  AWS WhitePapers Well-Architected Framework - describes key concepts, design principles, and architectural best practices for designing and running workloads in the cloud
+    Pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, Sustainability
+  AWS Well-Architected Tool - provides a trusted framework for you to evaluate your cloud architecture and implement designs that will scale over time
+  AWS Customer Carbon Footprint Tool - tool to analyze an organizations carbon footprint from its AWS service usage
   AWS CAF (Cloud Adoption Framework) - a comprehensive guide designed to help organizations effectively plan and implement their cloud adoption strategies
     business perspective capabilities: Strategy Management, Product Management, Business Insights, Portfolio Management, Strategic Partnership, Data Science, Innovation Management, Data Monetization
     security perspective: supports the company data and cloud workloads’ confidentiality, integrity, and availability
   AWS Professional Services - shares a collection of offerings to help you achieve specific outcomes related to enterprise cloud adoption
-  AWS Ecosystem
-  AWS IO
-  re:Post
-  AWS Knowledge Center
-  AWS Managed Services
+  AWS Ecosystem - the collection of all AWS services
+  AWS re:Post - a cloud knowledge service that helps builders remove technical roadblocks, accelerate innovation, and operate efficiently
+  AWS Knowledge Center - FAQ for AWS users
+  AWS Managed Services - services containing third party tools as part of the AWS Managed Services Advanced operating plan
 
 Shared Responcibility Model - Respnsibility between AWS and Client (you)
-  Cliant (security "IN" the cloud):
+  Client (security "IN" the cloud):
     Customer Data
     Platforms, Application, Identity and Access Mangement
     Client-side Data Encryption and Data Itegrity Authentication
