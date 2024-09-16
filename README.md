@@ -4,3 +4,11 @@
 Learning materials for the AWS Certified Cloud Practitioner Certification (AWS-CLF-C02).
 
 Information on the exam can be found [here](https://aws.amazon.com/certification/certified-cloud-practitioner/).
+
+## Cloud Concepts
+
+## Security and Compliance
+
+## Cloud Technology & Services
+
+## Billing, Pricing, & Support
