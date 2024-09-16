@@ -11,10 +11,10 @@ Domains of material covered in the exam:
 * Cloud Technology & Services
 * Billing, Pricing, & Support
 
-## Cloud Concepts
+<h2 id="1-cloud-concepts">Cloud Concepts</h2>
 
-## Security and Compliance
+<h2 id="2-security-compliance">Security and Compliance</h2>
 
-## Cloud Technology & Services
+<h2 id="3-cloud-tech-services">Cloud Technology & Services</h2>
 
-## Billing, Pricing, & Support
+<h2 id="4-billing-pricing-support">Billing, Pricing, & Support</h2>
