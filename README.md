@@ -5,6 +5,12 @@ Learning materials for the AWS Certified Cloud Practitioner Certification (AWS-C
 
 Information on the exam can be found [here](https://aws.amazon.com/certification/certified-cloud-practitioner/).
 
+Domains of material covered in the exam: 
+* Cloud Concepts
+* Security and Compliance
+* Cloud Technology & Services
+* Billing, Pricing, & Support
+
 ## Cloud Concepts
 
 ## Security and Compliance
