@@ -18,3 +18,7 @@ Domains of material covered in the exam:
 <h2 id="3-cloud-tech-services">Cloud Technology & Services</h2>
 
 <h2 id="4-billing-pricing-support">Billing, Pricing, & Support</h2>
+
+### Special Thanks
+Stephane Maarek on Udemy
+Tutorial Dojo 
