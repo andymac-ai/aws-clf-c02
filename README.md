@@ -57,6 +57,36 @@ SSM Session Manager - manage your Amazon Elastic Compute Cloud (Amazon EC2) inst
 
 SSM Parameter Store - provides secure, hierarchical storage for configuration data management and secrets management
 
+* Global Infrastructure
+
+<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Route-53.png" width="50"/>
+
+Route 53 - a highly available and scalable cloud Domain Name System (DNS) web service
+
+<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudFront.png" width="50"/>
+
+CloudFront - web service that speeds up distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users
+
+<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/s3-transfer-acceleration.png" width="50"/>
+
+S3 Transfer Acceleration - shortens the distance between client applications and AWS servers that acknowledge PUTS and GETS to Amazon S3 using our global network of hundreds of CloudFront Edge Locations
+
+<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Global-Accelerator.png" width="50"/>
+
+AWS Global Accelerator - terminates TCP connections from clients at AWS edge locations and, almost concurrently, establishes a new TCP connection with the endpoints, maximizing the time that traffic is on the AWS network and  ensureing that traffic is always routed over the optimum network path.
+
+<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Outposts-servers.png" width="50"/>
+
+AWS Outposts - a pool of AWS compute and storage capacity deployed at a customer site
+
+<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Wavelength.png" width="50"/>
+
+AWS WaveLength - a type of AWS infrastructure designed to run workloads that require low latency or edge resiliency
+
+<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Local-Zones.png" width="50"/>
+
+AWS Local Zones - allow for the placement of resources near end users
+
 <h2 id="2-security-compliance">Security and Compliance</h2>
 
 <h2 id="3-cloud-tech-services">Cloud Technology & Services</h2>

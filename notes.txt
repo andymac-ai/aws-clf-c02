@@ -151,6 +151,7 @@ Databases
   QLDB (Quantum Ledger Database) - ledger database that provides transparent, immutable, and cryptographically verifiable transaction log
   Managed Blockchain - allows user to build resilient Web3 application on both public and private blockchains
   Glue - serverless data integration service, allows users to discover, prepare, move, and integrate data from multiple sources
+    usecase: create workflows in ETL
   DMS (Database Migration Service) - assists in moving databases and workloads into AWS
   Aurora - A fully managed relational database engine that’s compatible with MySQL and PostgreSQL
     usecase: 5x faster than standard MySQL and 3x faster than PostgreSQL, highly scalable
