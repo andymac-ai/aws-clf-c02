@@ -20,5 +20,7 @@ Domains of material covered in the exam:
 <h2 id="4-billing-pricing-support">Billing, Pricing, & Support</h2>
 
 ### Special Thanks
+
 [Stephane Maarek's course on Udemy](https://www.udemy.com/course/aws-certified-cloud-practitioner-new/)
+
 [Tutorial Dojo](https://tutorialsdojo.com/)
