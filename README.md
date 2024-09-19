@@ -87,6 +87,25 @@ AWS WaveLength - a type of AWS infrastructure designed to run workloads that req
 
 AWS Local Zones - allow for the placement of resources near end users
 
+* Cloud Integrations
+
+<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Simple-Queue-Service.png" width="50"/>
+
+SQS (Simple Queue Service) - a service to send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available
+
+<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Kinesis.png" width="50"/>
+
+Kinesis - process real-time data, such as video, audio, application logs, website clickstreams, and IoT telemetry data, for machine learning (ML), analytics, and other applications
+
+<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Simple-Notification-Service.png" width="50"/>
+
+SNS (Simple Notification Service) - a service that makes it easy to set up, operate, and send notifications from the cloud
+
+<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Amazon-MQ.png" width="50"/>
+
+Amazon MQ - a managed message broker service for Apache ActiveMQ Classic and RabbitMQ that streamlines setup, operation, and management of message brokers on AWS
+
+
 <h2 id="2-security-compliance">Security and Compliance</h2>
 
 <h2 id="3-cloud-tech-services">Cloud Technology & Services</h2>
