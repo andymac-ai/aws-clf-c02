@@ -155,8 +155,25 @@ Domains of material covered in the exam:
             <td><h4></h4></td>
             <td></td>
         </tr>
+        <tr>
+            <td colspan=3><h3></h3></td>
+        </tr>
+        <tr>
+            <td><img src="" width="50"/></td>
+            <td><h4></h4></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><img src="" width="50"/></td>
+            <td><h4></h4></td>
+            <td></td>
+        </tr>
     </tbody>
 </table>
+
+* Cloud Monitoring
+
+* Networking
 
 <h2 id="2-security-compliance">Security and Compliance</h2>
 
