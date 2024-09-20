@@ -191,6 +191,39 @@ Domains of material covered in the exam:
             <td>can be used to learn about AWS Health events that affect AWS services or the AWS account</td>
         </tr>
         <tr>
+            <td colspan=3><h3>Networking</h3></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Virtual-Private-Cloud.png" width="50"/></td>
+            <td><h4>Amazon VPC (Virtual Private Cloud)</h4></td>
+            <td>a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>usecase: manage components of VPC (Subnet, Internet Gateway, NAT Gateways, Elastic IPs, Flow Logs, Peering); control the security of your VPC by configuring the Network ACLs and Security Groups</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Network-Access-Control-List.png" width="50"/></td>
+            <td><h4>NACL (Network Access Control List)</h4></td>
+            <td>an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/PrivateLink.png" width="50"/></td>
+            <td><h4>PrivateLink</h4></td>
+            <td>provides private connectivity between VPCs, supported AWS services, and your on-premises networks without exposing your traffic to the public internet</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Client-VPN.png" width="50"/></td>
+            <td><h4>Client VPN</h4></td>
+            <td>a fully-managed remote access VPN solution used by your remote workforce to securely access resources within both AWS and your on-premises network</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Transit-Gateway.png" width="50"/></td>
+            <td><h4>Transit Gateway</h4></td>
+            <td>connects your Amazon VPCs and on-premises networks through a central hub, simplifies the network and prevents complex peering relationships, Transit Gateway acts as a highly scalable cloud router—each new connection is made only once</td>
+        </tr>
+        <tr>
             <td colspan=3><h3></h3></td>
         </tr>
         <tr>
@@ -205,8 +238,6 @@ Domains of material covered in the exam:
         </tr>
     </tbody>
 </table>
-
-* Networking
 
 <h2 id="2-security-compliance">Security and Compliance</h2>
 
