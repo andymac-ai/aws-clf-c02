@@ -11,8 +11,6 @@ Domains of material covered in the exam:
 * Cloud Technology & Services
 * Billing, Pricing, & Support
 
-<h2 id="1-cloud-concepts">Cloud Concepts</h2>
-
 <table>
     <thead>
         <tr>
@@ -24,6 +22,9 @@ Domains of material covered in the exam:
     <tbody>
         <tr>
             <td colspan=3><h2>Cloud Concepts</h2></td>
+        </tr>
+        <tr>
+            <td colspan=3><h3>Deployments and Managing Infrastucture at Scale</h3></td>
         </tr>
         <tr>
             <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudFormation.png" width="50"/></td>
@@ -81,6 +82,151 @@ Domains of material covered in the exam:
             <td>provides secure, hierarchical storage for configuration data management and secrets management</td>
         </tr>
         <tr>
+            <td colspan=3><h3>Global Infrastructure</h3></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Route-53.png" width="50"/></td>
+            <td><h4>Route 53</h4></td>
+            <td>a highly available and scalable cloud Domain Name System (DNS) web service</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudFront.png" width="50"/></td>
+            <td><h4>CloudFront</h4></td>
+            <td>web service that speeds up distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/s3-transfer-acceleration.png" width="50"/></td>
+            <td><h4>S3 Transfer Acceleration</h4></td>
+            <td>shortens the distance between client applications and AWS servers that acknowledge PUTS and GETS to Amazon S3 using our global network of hundreds of CloudFront Edge Locations</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Global-Accelerator.png" width="50"/></td>
+            <td><h4>AWS Global Accelerator</h4></td>
+            <td>terminates TCP connections from clients at AWS edge locations and, almost concurrently, establishes a new TCP connection with the endpoints, maximizing the time that traffic is on the AWS network and  ensureing that traffic is always routed over the optimum network path.</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Outposts-servers.png" width="50"/></td>
+            <td><h4>AWS Outposts</h4></td>
+            <td>a pool of AWS compute and storage capacity deployed at a customer site</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Wavelength.png" width="50"/></td>
+            <td><h4>AWS WaveLength</h4></td>
+            <td>a type of AWS infrastructure designed to run workloads that require low latency or edge resiliency</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Local-Zones.png" width="50"/></td>
+            <td><h4>AWS Local Zones</h4></td>
+            <td>allow for the placement of resources near end users</td>
+        </tr>
+        <tr>
+            <td colspan=3><h3>Cloud Integrations</h3></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Simple-Queue-Service.png" width="50"/></td>
+            <td><h4>SQS (Simple Queue Service)</h4></td>
+            <td>a service to send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Kinesis.png" width="50"/></td>
+            <td><h4>Kinesis</h4></td>
+            <td>process real-time data, such as video, audio, application logs, website clickstreams, and IoT telemetry data, for machine learning (ML), analytics, and other applications</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Simple-Notification-Service.png" width="50"/></td>
+            <td><h4>SNS (Simple Notification Service)</h4></td>
+            <td>a service that makes it easy to set up, operate, and send notifications from the cloud</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Amazon-MQ.png" width="50"/></td>
+            <td><h4>Amazon MQ</h4></td>
+            <td>a managed message broker service for Apache ActiveMQ Classic and RabbitMQ that streamlines setup, operation, and management of message brokers on AWS</td>
+        </tr>
+        <tr>
+            <td colspan=3><h3>Cloud Monitoring</h3></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudWatch.png" width="50"/></td>
+            <td><h4>CloudWatch</h4></td>
+            <td>a repository for metrics and logs</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudWatch_Metrics.png" width="50"/></td>
+            <td><h4>CloudWatch Metrics</h4></td>
+            <td>essential for ensuring optimal performance and efficient resource utilization, provides insights to AWS Services allowing for real time tracking of health/performance/usage patterns</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudWatch_Alarms.png" width="50"/></td>
+            <td><h4>CloudWatch Alarms</h4></td>
+            <td>a monitoring tool that helps you create alarms on your AWS Resouces and AWS Services</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudWatch_Logs.png" width="50"/></td>
+            <td><h4>Cloudwatch Logs</h4></td>
+            <td>centralizes the logs from all of your systems, applications, and AWS services that you use, in a single, highly scalable service</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/EventBridge.png" width="50"/></td>
+            <td><h4>EventBridge</h4></td>
+            <td>a service that provides real-time access to changes in data in AWS services, your own applications, and software as a service (SaaS) applications without writing code</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudTrail.png" width="50"/></td>
+            <td><h4>CloudTrail</h4></td>
+            <td>a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/X-Ray.png" width="50"/></td>
+            <td><h4>X-Ray</h4></td>
+            <td>helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CodeGuru.png" width="50"/></td>
+            <td><h4>CodeGuru</h4></td>
+            <td>analyzes the application runtime performance and using machine learning, provides recommendations on ways that could speed up the application</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Health-Dashboard.png" width="50"/></td>
+            <td><h4>AWS Health Dashboard</h4></td>
+            <td>can be used to learn about AWS Health events that affect AWS services or the AWS account</td>
+        </tr>
+        <tr>
+            <td colspan=3><h3>Networking</h3></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Virtual-Private-Cloud.png" width="50"/></td>
+            <td><h4>Amazon VPC (Virtual Private Cloud)</h4></td>
+            <td>a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>usecase: manage components of VPC (Subnet, Internet Gateway, NAT Gateways, Elastic IPs, Flow Logs, Peering); control the security of your VPC by configuring the Network ACLs and Security Groups</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Network-Access-Control-List.png" width="50"/></td>
+            <td><h4>NACL (Network Access Control List)</h4></td>
+            <td>an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/PrivateLink.png" width="50"/></td>
+            <td><h4>PrivateLink</h4></td>
+            <td>provides private connectivity between VPCs, supported AWS services, and your on-premises networks without exposing your traffic to the public internet</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Client-VPN.png" width="50"/></td>
+            <td><h4>Client VPN</h4></td>
+            <td>a fully-managed remote access VPN solution used by your remote workforce to securely access resources within both AWS and your on-premises network</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Transit-Gateway.png" width="50"/></td>
+            <td><h4>Transit Gateway</h4></td>
+            <td>connects your Amazon VPCs and on-premises networks through a central hub, simplifies the network and prevents complex peering relationships, Transit Gateway acts as a highly scalable cloud router—each new connection is made only once</td>
+        </tr>
+        <tr>
+            <td colspan=3><h3></h3></td>
+        </tr>
+        <tr>
             <td><img src="" width="50"/></td>
             <td><h4></h4></td>
             <td></td>
@@ -92,56 +238,6 @@ Domains of material covered in the exam:
         </tr>
     </tbody>
 </table>
-
-
-* Global Infrastructure
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Route-53.png" width="50"/>
-
-Route 53 - a highly available and scalable cloud Domain Name System (DNS) web service
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudFront.png" width="50"/>
-
-CloudFront - web service that speeds up distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/s3-transfer-acceleration.png" width="50"/>
-
-S3 Transfer Acceleration - shortens the distance between client applications and AWS servers that acknowledge PUTS and GETS to Amazon S3 using our global network of hundreds of CloudFront Edge Locations
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Global-Accelerator.png" width="50"/>
-
-AWS Global Accelerator - terminates TCP connections from clients at AWS edge locations and, almost concurrently, establishes a new TCP connection with the endpoints, maximizing the time that traffic is on the AWS network and  ensureing that traffic is always routed over the optimum network path.
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Outposts-servers.png" width="50"/>
-
-AWS Outposts - a pool of AWS compute and storage capacity deployed at a customer site
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Wavelength.png" width="50"/>
-
-AWS WaveLength - a type of AWS infrastructure designed to run workloads that require low latency or edge resiliency
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Local-Zones.png" width="50"/>
-
-AWS Local Zones - allow for the placement of resources near end users
-
-* Cloud Integrations
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Simple-Queue-Service.png" width="50"/>
-
-SQS (Simple Queue Service) - a service to send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Kinesis.png" width="50"/>
-
-Kinesis - process real-time data, such as video, audio, application logs, website clickstreams, and IoT telemetry data, for machine learning (ML), analytics, and other applications
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Simple-Notification-Service.png" width="50"/>
-
-SNS (Simple Notification Service) - a service that makes it easy to set up, operate, and send notifications from the cloud
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Amazon-MQ.png" width="50"/>
-
-Amazon MQ - a managed message broker service for Apache ActiveMQ Classic and RabbitMQ that streamlines setup, operation, and management of message brokers on AWS
-
 
 <h2 id="2-security-compliance">Security and Compliance</h2>
 
