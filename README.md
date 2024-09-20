@@ -26,6 +26,9 @@ Domains of material covered in the exam:
             <td colspan=3><h2>Cloud Concepts</h2></td>
         </tr>
         <tr>
+            <td colspan=3><h3>Deployments and Managing Infrastucture at Scale</h3></td>
+        </tr>
+        <tr>
             <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudFormation.png" width="50"/></td>
             <td><h4>Cloud Formation</h4></td>
             <td>a service that enables users to model and manage infrastructure resources in an automated and secure manner, developers can define and provision AWS infrastructure resources using a JSON- or YAML-formatted infrastructure as code template</td>
@@ -81,6 +84,47 @@ Domains of material covered in the exam:
             <td>provides secure, hierarchical storage for configuration data management and secrets management</td>
         </tr>
         <tr>
+            <td colspan=3><h3>Global Infrastructure</h3></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Route-53.png" width="50"/></td>
+            <td><h4>Route 53</h4></td>
+            <td>a highly available and scalable cloud Domain Name System (DNS) web service</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudFront.png" width="50"/></td>
+            <td><h4>CloudFront</h4></td>
+            <td>web service that speeds up distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/s3-transfer-acceleration.png" width="50"/></td>
+            <td><h4>S3 Transfer Acceleration</h4></td>
+            <td>shortens the distance between client applications and AWS servers that acknowledge PUTS and GETS to Amazon S3 using our global network of hundreds of CloudFront Edge Locations</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Global-Accelerator.png" width="50"/></td>
+            <td><h4>AWS Global Accelerator</h4></td>
+            <td>terminates TCP connections from clients at AWS edge locations and, almost concurrently, establishes a new TCP connection with the endpoints, maximizing the time that traffic is on the AWS network and  ensureing that traffic is always routed over the optimum network path.</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Outposts-servers.png" width="50"/></td>
+            <td><h4>AWS Outposts</h4></td>
+            <td>a pool of AWS compute and storage capacity deployed at a customer site</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Wavelength.png" width="50"/></td>
+            <td><h4>AWS WaveLength</h4></td>
+            <td>a type of AWS infrastructure designed to run workloads that require low latency or edge resiliency</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Local-Zones.png" width="50"/></td>
+            <td><h4>AWS Local Zones</h4></td>
+            <td>allow for the placement of resources near end users</td>
+        </tr>
+        <tr>
+            <td colspan=3><h3>Cloud Integrations</h3></td>
+        </tr>
+        <tr>
             <td><img src="" width="50"/></td>
             <td><h4></h4></td>
             <td></td>
@@ -92,37 +136,6 @@ Domains of material covered in the exam:
         </tr>
     </tbody>
 </table>
-
-
-* Global Infrastructure
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Route-53.png" width="50"/>
-
-Route 53 - a highly available and scalable cloud Domain Name System (DNS) web service
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudFront.png" width="50"/>
-
-CloudFront - web service that speeds up distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/s3-transfer-acceleration.png" width="50"/>
-
-S3 Transfer Acceleration - shortens the distance between client applications and AWS servers that acknowledge PUTS and GETS to Amazon S3 using our global network of hundreds of CloudFront Edge Locations
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Global-Accelerator.png" width="50"/>
-
-AWS Global Accelerator - terminates TCP connections from clients at AWS edge locations and, almost concurrently, establishes a new TCP connection with the endpoints, maximizing the time that traffic is on the AWS network and  ensureing that traffic is always routed over the optimum network path.
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Outposts-servers.png" width="50"/>
-
-AWS Outposts - a pool of AWS compute and storage capacity deployed at a customer site
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Wavelength.png" width="50"/>
-
-AWS WaveLength - a type of AWS infrastructure designed to run workloads that require low latency or edge resiliency
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Local-Zones.png" width="50"/>
-
-AWS Local Zones - allow for the placement of resources near end users
 
 * Cloud Integrations
 
