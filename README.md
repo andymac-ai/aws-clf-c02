@@ -11,8 +11,6 @@ Domains of material covered in the exam:
 * Cloud Technology & Services
 * Billing, Pricing, & Support
 
-<h2 id="1-cloud-concepts">Cloud Concepts</h2>
-
 <table>
     <thead>
         <tr>
@@ -125,6 +123,29 @@ Domains of material covered in the exam:
             <td colspan=3><h3>Cloud Integrations</h3></td>
         </tr>
         <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Simple-Queue-Service.png" width="50"/></td>
+            <td><h4>SQS (Simple Queue Service)</h4></td>
+            <td>a service to send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Kinesis.png" width="50"/></td>
+            <td><h4>Kinesis</h4></td>
+            <td>process real-time data, such as video, audio, application logs, website clickstreams, and IoT telemetry data, for machine learning (ML), analytics, and other applications</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Simple-Notification-Service.png" width="50"/></td>
+            <td><h4>SNS (Simple Notification Service)</h4></td>
+            <td>a service that makes it easy to set up, operate, and send notifications from the cloud</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Amazon-MQ.png" width="50"/></td>
+            <td><h4>Amazon MQ</h4></td>
+            <td>a managed message broker service for Apache ActiveMQ Classic and RabbitMQ that streamlines setup, operation, and management of message brokers on AWS</td>
+        </tr>
+        <tr>
+            <td colspan=3><h3></h3></td>
+        </tr>
+        <tr>
             <td><img src="" width="50"/></td>
             <td><h4></h4></td>
             <td></td>
@@ -136,25 +157,6 @@ Domains of material covered in the exam:
         </tr>
     </tbody>
 </table>
-
-* Cloud Integrations
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Simple-Queue-Service.png" width="50"/>
-
-SQS (Simple Queue Service) - a service to send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Kinesis.png" width="50"/>
-
-Kinesis - process real-time data, such as video, audio, application logs, website clickstreams, and IoT telemetry data, for machine learning (ML), analytics, and other applications
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Simple-Notification-Service.png" width="50"/>
-
-SNS (Simple Notification Service) - a service that makes it easy to set up, operate, and send notifications from the cloud
-
-<img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Amazon-MQ.png" width="50"/>
-
-Amazon MQ - a managed message broker service for Apache ActiveMQ Classic and RabbitMQ that streamlines setup, operation, and management of message brokers on AWS
-
 
 <h2 id="2-security-compliance">Security and Compliance</h2>
 
