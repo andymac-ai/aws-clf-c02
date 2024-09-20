@@ -143,17 +143,52 @@ Domains of material covered in the exam:
             <td>a managed message broker service for Apache ActiveMQ Classic and RabbitMQ that streamlines setup, operation, and management of message brokers on AWS</td>
         </tr>
         <tr>
-            <td colspan=3><h3></h3></td>
+            <td colspan=3><h3>Cloud Monitoring</h3></td>
         </tr>
         <tr>
-            <td><img src="" width="50"/></td>
-            <td><h4></h4></td>
-            <td></td>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudWatch.png" width="50"/></td>
+            <td><h4>CloudWatch</h4></td>
+            <td>a repository for metrics and logs</td>
         </tr>
         <tr>
-            <td><img src="" width="50"/></td>
-            <td><h4></h4></td>
-            <td></td>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudWatch_Metrics.png" width="50"/></td>
+            <td><h4>CloudWatch Metrics</h4></td>
+            <td>essential for ensuring optimal performance and efficient resource utilization, provides insights to AWS Services allowing for real time tracking of health/performance/usage patterns</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudWatch_Alarms.png" width="50"/></td>
+            <td><h4>CloudWatch Alarms</h4></td>
+            <td>a monitoring tool that helps you create alarms on your AWS Resouces and AWS Services</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudWatch_Logs.png" width="50"/></td>
+            <td><h4>Cloudwatch Logs</h4></td>
+            <td>centralizes the logs from all of your systems, applications, and AWS services that you use, in a single, highly scalable service</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/EventBridge.png" width="50"/></td>
+            <td><h4>EventBridge</h4></td>
+            <td>a service that provides real-time access to changes in data in AWS services, your own applications, and software as a service (SaaS) applications without writing code</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudTrail.png" width="50"/></td>
+            <td><h4>CloudTrail</h4></td>
+            <td>a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/X-Ray.png" width="50"/></td>
+            <td><h4>X-Ray</h4></td>
+            <td>helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CodeGuru.png" width="50"/></td>
+            <td><h4>CodeGuru</h4></td>
+            <td>analyzes the application runtime performance and using machine learning, provides recommendations on ways that could speed up the application</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Health-Dashboard.png" width="50"/></td>
+            <td><h4>AWS Health Dashboard</h4></td>
+            <td>can be used to learn about AWS Health events that affect AWS services or the AWS account</td>
         </tr>
         <tr>
             <td colspan=3><h3></h3></td>
@@ -170,8 +205,6 @@ Domains of material covered in the exam:
         </tr>
     </tbody>
 </table>
-
-* Cloud Monitoring
 
 * Networking
 
