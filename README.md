@@ -143,17 +143,85 @@ Domains of material covered in the exam:
             <td>a managed message broker service for Apache ActiveMQ Classic and RabbitMQ that streamlines setup, operation, and management of message brokers on AWS</td>
         </tr>
         <tr>
-            <td colspan=3><h3></h3></td>
+            <td colspan=3><h3>Cloud Monitoring</h3></td>
         </tr>
         <tr>
-            <td><img src="" width="50"/></td>
-            <td><h4></h4></td>
-            <td></td>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudWatch.png" width="50"/></td>
+            <td><h4>CloudWatch</h4></td>
+            <td>a repository for metrics and logs</td>
         </tr>
         <tr>
-            <td><img src="" width="50"/></td>
-            <td><h4></h4></td>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudWatch_Metrics.png" width="50"/></td>
+            <td><h4>CloudWatch Metrics</h4></td>
+            <td>essential for ensuring optimal performance and efficient resource utilization, provides insights to AWS Services allowing for real time tracking of health/performance/usage patterns</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudWatch_Alarms.png" width="50"/></td>
+            <td><h4>CloudWatch Alarms</h4></td>
+            <td>a monitoring tool that helps you create alarms on your AWS Resouces and AWS Services</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudWatch_Logs.png" width="50"/></td>
+            <td><h4>Cloudwatch Logs</h4></td>
+            <td>centralizes the logs from all of your systems, applications, and AWS services that you use, in a single, highly scalable service</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/EventBridge.png" width="50"/></td>
+            <td><h4>EventBridge</h4></td>
+            <td>a service that provides real-time access to changes in data in AWS services, your own applications, and software as a service (SaaS) applications without writing code</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudTrail.png" width="50"/></td>
+            <td><h4>CloudTrail</h4></td>
+            <td>a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/X-Ray.png" width="50"/></td>
+            <td><h4>X-Ray</h4></td>
+            <td>helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CodeGuru.png" width="50"/></td>
+            <td><h4>CodeGuru</h4></td>
+            <td>analyzes the application runtime performance and using machine learning, provides recommendations on ways that could speed up the application</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Health-Dashboard.png" width="50"/></td>
+            <td><h4>AWS Health Dashboard</h4></td>
+            <td>can be used to learn about AWS Health events that affect AWS services or the AWS account</td>
+        </tr>
+        <tr>
+            <td colspan=3><h3>Networking</h3></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Virtual-Private-Cloud.png" width="50"/></td>
+            <td><h4>Amazon VPC (Virtual Private Cloud)</h4></td>
+            <td>a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define</td>
+        </tr>
+        <tr>
             <td></td>
+            <td></td>
+            <td>usecase: manage components of VPC (Subnet, Internet Gateway, NAT Gateways, Elastic IPs, Flow Logs, Peering); control the security of your VPC by configuring the Network ACLs and Security Groups</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Network-Access-Control-List.png" width="50"/></td>
+            <td><h4>NACL (Network Access Control List)</h4></td>
+            <td>an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/PrivateLink.png" width="50"/></td>
+            <td><h4>PrivateLink</h4></td>
+            <td>provides private connectivity between VPCs, supported AWS services, and your on-premises networks without exposing your traffic to the public internet</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Client-VPN.png" width="50"/></td>
+            <td><h4>Client VPN</h4></td>
+            <td>a fully-managed remote access VPN solution used by your remote workforce to securely access resources within both AWS and your on-premises network</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Transit-Gateway.png" width="50"/></td>
+            <td><h4>Transit Gateway</h4></td>
+            <td>connects your Amazon VPCs and on-premises networks through a central hub, simplifies the network and prevents complex peering relationships, Transit Gateway acts as a highly scalable cloud router—each new connection is made only once</td>
         </tr>
         <tr>
             <td colspan=3><h3></h3></td>
@@ -170,10 +238,6 @@ Domains of material covered in the exam:
         </tr>
     </tbody>
 </table>
-
-* Cloud Monitoring
-
-* Networking
 
 <h2 id="2-security-compliance">Security and Compliance</h2>
 
