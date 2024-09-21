@@ -224,6 +224,77 @@ Domains of material covered in the exam:
             <td>connects your Amazon VPCs and on-premises networks through a central hub, simplifies the network and prevents complex peering relationships, Transit Gateway acts as a highly scalable cloud router—each new connection is made only once</td>
         </tr>
         <tr>
+            <td colspan=3><h2>Security and Compliance</h2></td>
+        </tr>
+        <tr>
+            <td colspan=3><h3>Shared Responcibility Model</h3></td>
+        </tr>
+        <tr>
+            <td colspan=3><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/images/Shared_Responsibility_Model.jpg" /></td>
+        </tr>
+        <tr>
+            <td colspan=3><h3>Identity Access Management</h3></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Identity-and-Access-Management.png" width="50"/></td>
+            <td><h4>IAM (Identity and Access Management)</h4></td>
+            <td>manage users access, controls, and permissions for users within the organization</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Identity-Access-Management_MFA.png" width="50"/></td>
+            <td><h4>IAM MFA (Multi-Factor Authorization)</h4></td>
+            <td>makes a user have multiple devices to prove their identity</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>AWS Access Keys</h4></td>
+            <td>Long-term credentials for individual IAM accounts</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Command-Line-Interface.png" width="50"/></td>
+            <td><h4>CLI (Command Line Interface)</h4></td>
+            <td>tool to manage AWS tools, provides a command line interface to configure and control multiple services</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4></h4></td>
+            <td>usecase: requires Access keys for users to access</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/SDK.png" width="50"/></td>
+            <td><h4>SDK (Software Development Kit)</h4></td>
+            <td>contains tools to develop applications with AWS with different programming languages (eg JS, Java, React, Python, etc.)</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/CloudShell.png" width="50"/></td>
+            <td><h4>CloudShell</h4></td>
+            <td>online command line shell environment, preloaded with tools and automatically updated</td>
+        </tr>
+        <tr>
+            <td><img src="" width="50"/></td>
+            <td><h4></h4></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan=3><h2>Cloud Technology & Services</h2></td>
+        </tr>
+        <tr>
+            <td colspan=3><h3></h3></td>
+        </tr>
+        <tr>
+            <td><img src="" width="50"/></td>
+            <td><h4></h4></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><img src="" width="50"/></td>
+            <td><h4></h4></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan=3><h2>Billing, Pricing, & Support</h2></td>
+        </tr>
+        <tr>
             <td colspan=3><h3></h3></td>
         </tr>
         <tr>
@@ -238,12 +309,6 @@ Domains of material covered in the exam:
         </tr>
     </tbody>
 </table>
-
-<h2 id="2-security-compliance">Security and Compliance</h2>
-
-<h2 id="3-cloud-tech-services">Cloud Technology & Services</h2>
-
-<h2 id="4-billing-pricing-support">Billing, Pricing, & Support</h2>
 
 ### Special Thanks
 
