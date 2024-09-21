@@ -271,9 +271,102 @@ Domains of material covered in the exam:
             <td>online command line shell environment, preloaded with tools and automatically updated</td>
         </tr>
         <tr>
-            <td><img src="" width="50"/></td>
-            <td><h4></h4></td>
+            <td colspan=3><h3>Security Tools</h3></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/WAF.png" width="50"/></td>
+            <td><h4>WAF (web access firewall)</h4></td>
+            <td>protect web applications from attacks by allowing you to configure rules that allow, block, or monitor (count) web requests based on conditions that you define</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Shield.png" width="50"/></td>
+            <td><h4>AWS Shield</h4></td>
+            <td>a managed distributed denial of service (DDoS) protection service that safeguards applications running on AWS</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/AWS-Network-Firewall.png" width="50"/></td>
+            <td><h4>AWS Network Firewall</h4></td>
+            <td>a stateful, managed, network firewall and intrusion detection and prevention service for an Amazon VPC</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/AWS-Firewall-Manager.png" width="50"/></td>
+            <td><h4>AWS Firewall Manager</h4></td>
+            <td>a security management service which allows you to centrally configure and manage firewall rules across your accounts and applications in AWS Organization</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/AWS-Key-Management-Service.png" width="50"/></td>
+            <td><h4>KMS (Key Management Service)</h4></td>
+            <td>gives you centralized control over the cryptographic keys used to protect your data</td>
+        </tr>
+        <tr>
             <td></td>
+            <td><h4>AWS CloudHSM (Cloud Hardware Security Module)</h4></td>
+            <td>a cryptographic service for creating and maintaining hardware security modules</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/AWS-Certificate-Manager.png" width="50"/></td>
+            <td><h4>ACM (AWS Certificate Manager)</h4></td>
+            <td>a service that allows developers to provision, manage, and deploy public and private Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates for use with AWS services and internal connected resources</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/AWS-Secrets-Manager.png" width="50"/></td>
+            <td><h4>Secrets Manager</h4></td>
+            <td>encrypts at rest using encryption keys owned and stored in AWS KMS</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/AWS-Artifact.png" width="50"/></td>
+            <td><h4>Artifact</h4></td>
+            <td>contains compliance-related documents in AWS such as ISO certifications, Payment Card Industry (PCI), and Service Organization Control (SOC) reports</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Amazon-GuardDuty.png" width="50"/></td>
+            <td><h4>AWS GuardDuty</h4></td>
+            <td>automatically manage resource utilization based on the overall activity levels within AWS accounts, workloads, and data</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Amazon-Inspector.png" width="50"/></td>
+            <td><h4>AWS Inspector</h4></td>
+            <td>continually scans AWS workloads for software vulnerabilities and unintended network exposure</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/AWS-Config.png" width="50"/></td>
+            <td><h4>AWS Config</h4></td>
+            <td>helps user record configuration changes to software within EC2 instances in the AWS account and also virtual machines (VMs) or servers in the on-premises environment</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Macie.png" width="50"/></td>
+            <td><h4>AWS Macie</h4></td>
+            <td>a data security service that discovers sensitive data using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>AWS SecurityHub</h4></td>
+            <td>allows organizations to create custom insights and compliance checks specific to their environment</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Amazon-Detective.png" width="50"/></td>
+            <td><h4>Amazon Detective</h4></td>
+            <td>helps analyze, investigate, and quickly identify the root cause of security findings or suspicious activities</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>AWS Abuse</h4></td>
+            <td>addresses many different types of potentially abusive activity such as phishing, malware, spam, and denial of service (DoS)/ distributed denial of service (DDoS) incidents</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>Root User Privileges</h4></td>
+            <td>complete access to all AWS services and resources in your AWS account</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4></h4></td>
+            <td>usecase: should only be used when absolutely necessary</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/IAM-Access-Analyzer.png" width="50"/></td>
+            <td><h4>IAM Access Analyzer</h4></td>
+            <td>gives visibility into unused access across your AWS organization and recommendations to help you remediate unused access</td>
         </tr>
         <tr>
             <td colspan=3><h2>Cloud Technology & Services</h2></td>
