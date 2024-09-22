@@ -395,7 +395,7 @@ Domains of material covered in the exam:
             <td colspan=3><h2>Cloud Technology & Services</h2></td>
         </tr>
         <tr>
-            <td colspan=3><h3></h3></td>
+            <td colspan=3><h3>EC2</h3></td>
         </tr>
         <tr>
             <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/EC2.png" width="50"/></td>
@@ -426,7 +426,31 @@ Domains of material covered in the exam:
             <td></td>
             <td></td>
             <td>usecase: 90% cheaper with less performance than On-Demand Instances </td>
+        </tr><tr>
+            <td></td>
+            <td><h4>EC2 Instance Storage</h4></td>
+            <td>storage options to optimize performance vs. cost</td>
         </tr>
+        </tr><tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Elastic-Block-Store.png" width="50"/></td>
+            <td><h4>EBS (Elastic Block Store)</h4></td>
+            <td>block level storage volumes to EC2 instances, multiple EBS volumes can be attached to each EC2 instance</td>
+        </tr>
+        </tr><tr>
+            <td></td>
+            <td></td>
+            <td>usecase: rapidly changing data</td>
+        </tr>
+        </tr><tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/AMI.png" width="50"/></td>
+            <td><h4>AMI (Amazon Machine Image)</h4></td>
+            <td>creates images (templates) of AWS EC2 instances to be used as masters for instance pools</td>
+        </tr>
+        </tr><tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/EFS.png" width="50"/></td>
+            <td><h4>EFS (Elastic File System)</h4></td>
+            <td>auto-scaling file system that grows/shrinks as files are added/removed, regional service</td>
+        </tr> 
         <tr>
             <td colspan=3><h3></h3></td>
         </tr>
