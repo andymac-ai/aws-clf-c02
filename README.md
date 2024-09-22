@@ -452,6 +452,34 @@ Domains of material covered in the exam:
             <td>auto-scaling file system that grows/shrinks as files are added/removed, regional service</td>
         </tr> 
         <tr>
+            <td colspan=3><h3>Load Balancing</h3></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Elastic-Load-Balancing.png" width="50"/></td>
+            <td><h4>ELB (Elastic Load Balancing)</h4></td>
+            <td>automatically balances application traffic to a different targets and appliances across multiple availabiliy zones</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Application-Load-Balancer.png" width="50"/></td>
+            <td><h4>Application Load Balancer</h4></td>
+            <td>best suited for load balancing of HTTP and HTTPS traffic and provides advanced request routing targeted at the delivery of modern application architectures, including microservices and containers</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Network-Load-Balancer.png" width="50"/></td>
+            <td><h4>Network Load Balancer</h4></td>
+            <td>best suited for load balancing of Transmission Control Protocol (TCP), User Datagram Protocol (UDP), and Transport Layer Security (TLS) traffic where extreme performance is required</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Gateway-Load-Balancer.png" width="50"/></td>
+            <td><h4>Gateway Load Balancer</h4></td>
+            <td>provides both Layer 3 gateway and Layer 4 load balancing capabilities. It is a transparent bump-in-the-wire device that does not change any part of the packet</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Auto-Scaling-Group.png" width="50"/></td>
+            <td><h4>ASG (Auto Scaling Groups)</h4></td>
+            <td>each group contains multiple EC2 instances and provides autoscaling based on needs, only horizontal (number of instances, not performance of instances)</td>
+        </tr>
+        <tr>
             <td colspan=3><h3></h3></td>
         </tr>
         <tr>
