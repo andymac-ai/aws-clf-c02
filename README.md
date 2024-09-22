@@ -398,6 +398,39 @@ Domains of material covered in the exam:
             <td colspan=3><h3></h3></td>
         </tr>
         <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/EC2.png" width="50"/></td>
+            <td><h4>EC2 (Elastic Compute Cloud)</h4></td>
+            <td>cloud-based cloud computation service, regional service</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>usecase: can launch a new database in AWS where the customer assumes the responsibility and management of the guest operating system, including updates and security patches</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>EC2 Instance Connect</h4></td>
+            <td>tool to connect to an EC2 instance</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>EC2 Dedicated Host</h4></td>
+            <td>a physical server with EC2 instance capacity fully dedicated to your use</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/EC2_Spot-Instance.png" width="50"/></td>
+            <td><h4>EC2 Spot Instances</h4></td>
+            <td>instances from unused EC2 capacity in the AWS cloud</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>usecase: 90% cheaper with less performance than On-Demand Instances </td>
+        </tr>
+        <tr>
+            <td colspan=3><h3></h3></td>
+        </tr>
+        <tr>
             <td><img src="" width="50"/></td>
             <td><h4></h4></td>
             <td></td>
