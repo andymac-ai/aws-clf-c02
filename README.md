@@ -369,6 +369,29 @@ Domains of material covered in the exam:
             <td>gives visibility into unused access across your AWS organization and recommendations to help you remediate unused access</td>
         </tr>
         <tr>
+            <td colspan=3><h3>Advanced Identity</h3></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/STS.png" width="50"/></td>
+            <td><h4>STS (Security Token Service)</h4></td>
+            <td>a tool that provides temporary access to IAM roles with their own permissions</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Cognito.png" width="50"/></td>
+            <td><h4>AWS Cognito</h4></td>
+            <td>support federated authentication, profile data sync store and AWS access token distribution without writing any backend code</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Directory-Service.png" width="50"/></td>
+            <td><h4>AWS Directory Services</h4></td>
+            <td>provides multiple directory choices for customers who want to use existing Microsoft AD or Lightweight Directory Access Protocol (LDAP)–aware applications in the cloud</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Identity-Center.png" width="50"/></td>
+            <td><h4>IAM Identity Center</h4></td>
+            <td>streamlines and simplifies workforce user access to applications or AWS accounts </td>
+        </tr>
+        <tr>
             <td colspan=3><h2>Cloud Technology & Services</h2></td>
         </tr>
         <tr>
