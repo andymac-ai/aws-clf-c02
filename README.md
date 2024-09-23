@@ -631,6 +631,69 @@ Domains of material covered in the exam:
             <td>usecase: 5x faster than standard MySQL and 3x faster than PostgreSQL, highly scalable</td>
         </tr>
         <tr>
+            <td colspan=3><h3>Machine Learning</h3></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Rekognition.png" width="50"/></td>
+            <td><h4>Rekognition</h4></td>
+            <td>an image recognition service that detects objects, scenes, activities, landmarks, faces, dominant colors, and image quality</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Transcribe.png" width="50"/></td>
+            <td><h4>Transcribe</h4></td>
+            <td>an automatic speech recognition service that uses machine learning models to convert audio to text</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Polly.png" width="50"/></td>
+            <td><h4>Polly</h4></td>
+            <td>a service that converts text into lifelike speech</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Translate.png" width="50"/></td>
+            <td><h4>Translate</h4></td>
+            <td>a service that translates text between languages</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Lex.png" width="50"/></td>
+            <td><h4>Lex</h4></td>
+            <td>a voice based virtual assitant or chat bot</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Connect.png" width="50"/></td>
+            <td><h4>Connect</h4></td>
+            <td>acts as a link between different Machine Learning services to to provide infrastructure</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Comprehend.png" width="50"/></td>
+            <td><h4>Comprehend</h4></td>
+            <td>sort or collect text documents by subjects or tags</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/SageMaker.png" width="50"/></td>
+            <td><h4>SageMaker</h4></td>
+            <td>build, train and deploy ML models at scale using tools like notebooks, debuggers, profilers, pipelines, MLOps, and more – all in one integrated development environment (IDE)</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Forecast.png" width="50"/></td>
+            <td><h4>Forecast</h4></td>
+            <td>a service that handles time series data and predicts future trends</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Kendra.png" width="50"/></td>
+            <td><h4>Kendra</h4></td>
+            <td>a search service that uses Natural Language Processing and machine learning to return more complex queries</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Personalize.png" width="50"/></td>
+            <td><h4>Personalize</h4></td>
+            <td>uses your data to generate item recommendations for your users</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Textract.png" width="50"/></td>
+            <td><h4>Textract</h4></td>
+            <td>extracts content and context from text data</td>
+        </tr>
+        <tr>
             <td colspan=3><h3>Other Compute Services</h3></td>
         </tr>
         <tr>
