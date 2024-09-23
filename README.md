@@ -518,6 +518,119 @@ Domains of material covered in the exam:
             <td>an exabyte-scale data transfer service that is used to move large volumes of data to Amazon Web Services</td>
         </tr>
         <tr>
+            <td colspan=3><h3>Databases</h3></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/RDS.png" width="50"/></td>
+            <td><h4>RDS (Relational Database Services)</h4></td>
+            <td>managed relational database service for MySQL, PostgreSQL, MariaDB, Oracle BYOL, or SQL server</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>usecase: simplifies the management of time-consuming database administration tasks; Makes it easy to set up, operate, and scale a relational database</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>usecase: rapidly changing data</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/ElastiCache.png" width="50"/></td>
+            <td><h4>ElastiCache</h4></td>
+            <td>fast, in-memory data store for use as a database, cache, message broker</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>usecase: store the results of I/O-intensive SQL database queries to improve application performance</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>usecase: lets you deploy and run Memcached or Redis cache server nodes in the cloud</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/DynamoDB.png" width="50"/></td>
+            <td><h4>DynamoDB</h4></td>
+            <td>fully managed proprietary NoSQL database</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>usecase: highly scalable, used for nonrelational data</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Redshift.png" width="50"/></td>
+            <td><h4>Redshift</h4></td>
+            <td>petabyte-scale data warehouse and exabyte-scale data lake analytics</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>usecase: best used for OLAP (online analytical processing) workloads</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/EMR.png" width="50"/></td>
+            <td><h4>EMR (Elastic MapReduce)</h4></td>
+            <td>petabyte data processing, interactive analytics and machine learning, uses open source frameworks including Apache Spark, Apache Hive, and Presto</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/QuickSight.png" width="50"/></td>
+            <td><h4>Quicksight</h4></td>
+            <td>business analytics tool</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/DocumentDB.png" width="50"/></td>
+            <td><h4>DocumentDB</h4></td>
+            <td>JSON document database</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Neptune.png" width="50"/></td>
+            <td><h4>Neptune</h4></td>
+            <td>graph database for billions of relationships</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Timestream.png" width="50"/></td>
+            <td><h4>Timestream</h4></td>
+            <td>time series database</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Quantum-Ledger-Database.png" width="50"/></td>
+            <td><h4>QLDB (Quantum Ledger Database)</h4></td>
+            <td>ledger database that provides transparent, immutable, and cryptographically verifiable transaction log</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Managed-Blockchain.png" width="50"/></td>
+            <td><h4>Managed Blockchain</h4></td>
+            <td>allows user to build resilient Web3 application on both public and private blockchains</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Glue.png" width="50"/></td>
+            <td><h4>Glue</h4></td>
+            <td>serverless data integration service, allows users to discover, prepare, move, and integrate data from multiple sources</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>usecase: create workflows in ETL</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Database-Migration-Service.png" width="50"/></td>
+            <td><h4>DMS (Database Migration Service)</h4></td>
+            <td>assists in moving databases and workloads into AWS</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Aurora.png" width="50"/></td>
+            <td><h4>Aurora</h4></td>
+            <td>A fully managed relational database engine that’s compatible with MySQL and PostgreSQL</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>usecase: 5x faster than standard MySQL and 3x faster than PostgreSQL, highly scalable</td>
+        </tr>
+        <tr>
             <td colspan=3><h3></h3></td>
         </tr>
         <tr>
