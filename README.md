@@ -480,6 +480,44 @@ Domains of material covered in the exam:
             <td>each group contains multiple EC2 instances and provides autoscaling based on needs, only horizontal (number of instances, not performance of instances)</td>
         </tr>
         <tr>
+            <td colspan=3><h3>Object Storage</h3></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/S3.png" width="50"/></td>
+            <td><h4>Amazon S3 (Simple Storage Service)</h4></td>
+            <td>object storage service, designed for 99.999999999% (11 9's) of durability and stores millions of customers data</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>usecase: Bucket Policy allows specific users access to bucket</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>AWS Snow</h4></td>
+            <td>provides computation at the edge or migration from edge devices to the cloud</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Snowcone.png" width="50"/></td>
+            <td><h4>AWS Snowcone</h4></td>
+            <td>small, portable device for local transfer and physical shipment an AWS facility</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Snowball.png" width="50"/></td>
+            <td><h4>AWS Snowball</h4></td>
+            <td>larger, portable device can be optimized for storage or compute</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Snowball-Edge.png" width="50"/></td>
+            <td><h4>AWS Snowball Edge</h4></td>
+            <td>an edge computing and data transfer device provided by the AWS Snowball service</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>AWS Snowmobile</h4></td>
+            <td>an exabyte-scale data transfer service that is used to move large volumes of data to Amazon Web Services</td>
+        </tr>
+        <tr>
             <td colspan=3><h3></h3></td>
         </tr>
         <tr>
