@@ -722,17 +722,127 @@ Domains of material covered in the exam:
             <td>a virtual private server used to store data, run code, build web-based applications</td>
         </tr>
         <tr>
-            <td colspan=3><h3></h3></td>
+            <td colspan=3><h3>Other Services</h3></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/WorkSpaces.png" width="50"/></td>
+            <td><h4>AWS WorkSpaces</h4></td>
+            <td>a cloud-based virtual desktop that can act as a replacement for a traditional desktop</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/AppStream-2.png" width="50"/></td>
+            <td><h4>AppStream 2.0</h4></td>
+            <td>a fully managed application streaming service that provides users instant access to their desktop applications from anywhere</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/IoT-Core.png" width="50"/></td>
+            <td><h4>AWS IoT Core</h4></td>
+            <td>a fully integrated feature that enables IoT developers to easily provision, onboard, and monitor Amazon Sidewalk devices through AWS IoT Core</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Elastic-Transcoder.png" width="50"/></td>
+            <td><h4>Elastic Transcoder</h4></td>
+            <td>media transcoding in the cloud and designed to be a highly scalable, easy to use and a cost effective way for developers and businesses to convert (or “transcode”) media files from their source format into versions that will playback on devices like smartphones, tablets and PCs</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/AppSync.png" width="50"/></td>
+            <td><h4>AppSync</h4></td>
+            <td>allows applications to access exactly the data needed</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>usecase: create a flexible API to securely access, manipulate, and combine data from multiple sources and pay only for requests to your API and for real-time messages delivered to connected clients</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/AWS-Amplify.png" width="50"/></td>
+            <td><h4>AWS Amplify</h4></td>
+            <td>a unified development platform that provides a seamless bridge between front-end and back-end development</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/AWS-Application-Composer.png" width="50"/></td>
+            <td><h4>AWS Application Composer</h4></td>
+            <td>streamline and accelerate the architecture, development, and iteration of modern applications</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Device-Farm.png" width="50"/></td>
+            <td><h4>AWS Device Farm</h4></td>
+            <td>an application testing service that lets you improve the quality of your web and mobile apps by testing them across an extensive range of desktop browsers and real mobile devices</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Backup.png" width="50"/></td>
+            <td><h4>AWS Backup</h4></td>
+            <td>a fully-managed service that makes it easy to centralize and automate data protection across AWS services, in the cloud, and on premises</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Elastic-Disaster-Recovery.png" width="50"/></td>
+            <td><h4>AWS DRS (Elastic Disaster Recovery)</h4></td>
+            <td>automatically converts your servers to boot and run natively on AWS when you launch instances for drills or recovery</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/DataSync.png" width="50"/></td>
+            <td><h4>AWS DataSync</h4></td>
+            <td>a secure, online service that automates and accelerates moving data between on premises and AWS Storage services</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>Cloud Migration Strategies (7R's)</h4></td>
+            <td>refactor, replatform, repurchase, rehost, relocate, retain, and retire</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Application-Discovery-Service.png" width="50"/></td>
+            <td><h4>Application Discovery Service</h4></td>
+            <td>helps plan application migration projects by automatically identifying servers, virtual machines (VMs), and network dependencies in on-premises data centers</td>
         </tr>
         <tr>
             <td><img src="" width="50"/></td>
-            <td><h4></h4></td>
-            <td></td>
+            <td><h4>Application Migration Service</h4></td>
+            <td>allows you to migrate physical, virtual, and cloud source servers to AWS for a variety of supported operating systems (OS)</td>
         </tr>
         <tr>
-            <td><img src="" width="50"/></td>
-            <td><h4></h4></td>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Application-Migration-Service.png" width="50"/></td>
+            <td><h4>AWS Migration Evaluator</h4></td>
+            <td>gives a clear baseline of what an organization is running at present and what its projected AWS costs will be, measured on-premises provisioning and utilization</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Migration-Hub.png" width="50"/></td>
+            <td><h4>AWS Migration Hub</h4></td>
+            <td>provides a single place to discover existing servers, plan migrations, and track the status of each application migration</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Fault-Injection-Service.png" width="50"/></td>
+            <td><h4>AWS Fault Injection Service (FIS)</h4></td>
+            <td>a systematic and controlled process of introducing faults or errors into a system to observe its behavior under adverse conditions</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Step-Functions.png" width="50"/></td>
+            <td><h4>Step Functions</h4></td>
+            <td>a visual workflow service that helps developers use AWS services to build distributed applications, automate processes, orchestrate microservices, and create data and machine learning (ML) pipelines</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Ground-Station.png" width="50"/></td>
+            <td><h4>AWS Ground Station</h4></td>
+            <td>control satellite communications, process data, and scale your operations without having to worry about building or managing your own ground station infrastructure</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Pinpoint.png" width="50"/></td>
+            <td><h4>AWS Pinpoint</h4></td>
+            <td>an AWS service that you can use to engage with your customers across multiple messaging channels</td>
+        </tr>
+        <tr>
             <td></td>
+            <td><h4>AWS Partner Network (APN)</h4></td>
+            <td>network focused on helping partners build successful AWS-based businesses to drive superb customer experiences</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>APN Consulting Partners</h4></td>
+            <td>professional services firms that help customers of all sizes design, architect, migrate, or build new applications on AWS</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>APN Technology Partners</h4></td>
+            <td>provide software solutions that are either hosted on or integrated with the AWS platform</td>
         </tr>
         <tr>
             <td colspan=3><h2>Billing, Pricing, & Support</h2></td>
