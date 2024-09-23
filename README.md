@@ -631,6 +631,34 @@ Domains of material covered in the exam:
             <td>usecase: 5x faster than standard MySQL and 3x faster than PostgreSQL, highly scalable</td>
         </tr>
         <tr>
+            <td colspan=3><h3>Other Compute Services</h3></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Elastic-Container-Service.png" width="50"/></td>
+            <td><h4>ECS (Elastic Container Service)</h4></td>
+            <td>allows for managed container orchestration to easliy deploy, manage, and scale containerized applications</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Lambda.png" width="50"/></td>
+            <td><h4>Lambda</h4></td>
+            <td>serveless computing, runs code in many different languages (Node.js, Python, Go, Java, etc) and manages resources, scaling to deploy the functions</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/API-Gateway.png" width="50"/></td>
+            <td><h4>API Gateway</h4></td>
+            <td>fully managed service to allow developers to create, publish, maintain, monitor, and secure API's at any scale</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Batch.png" width="50"/></td>
+            <td><h4>Batch</h4></td>
+            <td>plans, schedules, and runs containerized batch ML, simulation, and analytics workloads across the full range of AWS compute offerings</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Lightsail.png" width="50"/></td>
+            <td><h4>Lightsail</h4></td>
+            <td>a virtual private server used to store data, run code, build web-based applications</td>
+        </tr>
+        <tr>
             <td colspan=3><h3></h3></td>
         </tr>
         <tr>
