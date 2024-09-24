@@ -426,7 +426,11 @@ Domains of material covered in the exam:
             <td></td>
             <td></td>
             <td>usecase: 90% cheaper with less performance than On-Demand Instances </td>
-        </tr><tr>
+        </tr>
+        <tr>
+            <td colspan=3 ><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/images/aws-compute-pricing.png" /></td>
+        </tr>
+        <tr>
             <td></td>
             <td><h4>EC2 Instance Storage</h4></td>
             <td>storage options to optimize performance vs. cost</td>
@@ -848,6 +852,9 @@ Domains of material covered in the exam:
             <td colspan=3><h2>Billing, Pricing, & Support</h2></td>
         </tr>
         <tr>
+            <td colspan=3><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/images/aws-compare-support-plans.png" /></td>
+        </tr>
+        <tr>
             <td colspan=3><h3></h3></td>
         </tr>
         <tr>
@@ -859,6 +866,12 @@ Domains of material covered in the exam:
             <td><img src="" width="50"/></td>
             <td><h4></h4></td>
             <td></td>
+        </tr>
+        <tr>
+            <td colspan=3><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/images/AWS-WAF-Six-Pillars.png" /></td>
+        </tr>
+        <tr>
+            <td colspan=3><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/images/aws-caf-perspectives.png" /></td>
         </tr>
     </tbody>
 </table>
