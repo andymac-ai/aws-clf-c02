@@ -943,53 +943,62 @@ usecase: an easy way to establish a landing zone that implements an AWS well-arc
             <td></td>
             <td>usecase: capable of inspecting your AWS environment and making recommendations to lower expenditures, improve system performance and reliability, and close security gaps</td>
         </tr>
-        
-        
-
-
-
-
-AWS Organizations - 
-AWS Control Tower - 
-AWS RAM (Resource Access Manager) - 
-AWS Service Catalog API - 
-Compute Optimizer - 
-Billing and Costing Tools - 
-Pricing calculator - 
-AWS Billing Dashboard - 
-Cost Allocation Tags - 
-Cost and Usage Reports - 
-Amazon CloudWatch - Billing Alarms - 
-AWS Budgets - 
-AWS Cost Explorer - 
-AWS Cost Anomaly Detection - 
-AWS Service Quotas - 
-AWS Trusted Advisor - 
-5 categories: 
-
-Support Plans - 
-Business: most cost effective support API access
-Consolodated Billing - one bill for multiple accounts, share the volume pricing and Reserved Instance discounts by combining the usage across all accounts in the organization
-
-    
         <tr>
-            <td colspan=3><h3></h3></td>
+            <td colspan=3><h3>Architecting</h3></td>
         </tr>
         <tr>
-            <td><img src="" width="50"/></td>
-            <td><h4></h4></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><img src="" width="50"/></td>
-            <td><h4></h4></td>
-            <td></td>
+            <td colspan=3><h4>Well-Architected Framework</h4></td>
         </tr>
         <tr>
             <td colspan=3><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/images/AWS-WAF-Six-Pillars.png" /></td>
         </tr>
         <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Well-Architected-Tool.png" width="50"/></td>
+            <td><h4>AWS Well-Architected Tool</h4></td>
+            <td>provides a trusted framework for you to evaluate your cloud architecture and implement designs that will scale over time</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>AWS Customer Carbon Footprint Tool</h4></td>
+            <td>tool to analyze an organizations carbon footprint from its AWS service usage</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>AWS CAF (Cloud Adoption Framework)</h4></td>
+            <td>a comprehensive guide designed to help organizations effectively plan and implement their cloud adoption strategies</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>Business Perspective Capabilities:</h4></td>
+            <td>Strategy Management, Product Management, Business Insights, Portfolio Management, Strategic Partnership, Data Science, Innovation Management, Data Monetization</td>
+        </tr>
+        <tr>
             <td colspan=3><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/images/aws-caf-perspectives.png" /></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Professional-Services.png" width="50"/></td>
+            <td><h4>AWS Professional Services</h4></td>
+            <td>shares a collection of offerings to help you achieve specific outcomes related to enterprise cloud adoption</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>AWS Ecosystem</h4></td>
+            <td>the collection of all AWS services</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/rePost.png" width="50"/></td>
+            <td><h4>AWS re:Post</h4></td>
+            <td>a cloud knowledge service that helps builders remove technical roadblocks, accelerate innovation, and operate efficiently</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>AWS Knowledge Center</h4></td>
+            <td>FAQ for AWS users</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Managed-Services.png" width="50"/></td>
+            <td><h4>AWS Managed Services</h4></td>
+            <td>services containing third party tools as part of the AWS Managed Services Advanced operating plan</td>
         </tr>
     </tbody>
 </table>
