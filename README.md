@@ -855,6 +855,124 @@ Domains of material covered in the exam:
             <td colspan=3><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/images/aws-compare-support-plans.png" /></td>
         </tr>
         <tr>
+            <td colspan=3><h3>Account Management</h3></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Organizations.png" width="50"/></td>
+            <td><h4>AWS Organizations</h4></td>
+            <td>centrally manages and governs the environment as it grows and scales AWS resources</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>Consolodated Billing</h4></td>
+            <td>one bill for multiple accounts, share the volume pricing and Reserved Instance discounts by combining the usage across all accounts in the organization</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Control-Tower.png" width="50"/></td>
+            <td><h4>AWS Control Tower</h4></td>
+            <td>tool to create or manage multi-account AWS environments with best practices
+usecase: an easy way to establish a landing zone that implements an AWS well-architected, multi-account environment and applies the AWS best practices</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Resource-Access-Manager.png" width="50"/></td>
+            <td><h4>AWS RAM (Resource Access Manager)</h4></td>
+            <td>helps securely share resources across AWS accounts, within an organization or organizational units (OUs) in AWS Organizations, and with IAM roles and IAM users for supported resource types</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Service-Catalog.png" width="50"/></td>
+            <td><h4>AWS Service Catalog API</h4></td>
+            <td>provides programmatic control over all end-user actions as an alternative to using the AWS Management Console</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Compute-Optimizer.png" width="50"/></td>
+            <td><h4>Compute Optimizer</h4></td>
+            <td>a service that analyzes your AWS resources' configuration and utilization metrics to provide you with rightsizing recommendations</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>Pricing Calculator</h4></td>
+            <td>estimate a bill by entering planned usages by service</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>AWS Billing Dashboard</h4></td>
+            <td>allows you to view all previous payments, access AWS credits, and consolidate bills</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>Cost Allocation Tags</h4></td>
+            <td>organizes resources, cost allocation tags to track AWS costs on a detailed level</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>Cost and Usage Reports</h4></td>
+            <td>tracks your AWS usage and provides estimated charges associated with your account</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Budgets.png" width="50"/></td>
+            <td><h4>AWS Budgets</h4></td>
+            <td>a tool to set custom budgets that alert you when your costs or usage exceed (or are forecasted to exceed) your budgeted amount</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Cost-Explorer.png" width="50"/></td>
+            <td><h4>AWS Cost Explorer</h4></td>
+            <td>lets you visualize, understand, and manage your AWS costs and usage over time</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>AWS Cost Anomaly Detection</h4></td>
+            <td>monitors spending patterns to detect anomalous spend and provide root cause analysis</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>AWS Service Quotas</h4></td>
+            <td>enables the view and manage your quotas from a central location</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Trusted-Advisor.png" width="50"/></td>
+            <td><h4>AWS Trusted Advisor</h4></td>
+            <td>an online tool that provides you with real-time guidance to help you provision your resources following AWS best practices</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><h4>5 categories:</h4></td>
+            <td>Cost Optimization, Performance, Security, Fault Tolerance, Service Limits</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>usecase: capable of inspecting your AWS environment and making recommendations to lower expenditures, improve system performance and reliability, and close security gaps</td>
+        </tr>
+        
+        
+
+
+
+
+AWS Organizations - 
+AWS Control Tower - 
+AWS RAM (Resource Access Manager) - 
+AWS Service Catalog API - 
+Compute Optimizer - 
+Billing and Costing Tools - 
+Pricing calculator - 
+AWS Billing Dashboard - 
+Cost Allocation Tags - 
+Cost and Usage Reports - 
+Amazon CloudWatch - Billing Alarms - 
+AWS Budgets - 
+AWS Cost Explorer - 
+AWS Cost Anomaly Detection - 
+AWS Service Quotas - 
+AWS Trusted Advisor - 
+5 categories: 
+
+Support Plans - 
+Business: most cost effective support API access
+Consolodated Billing - one bill for multiple accounts, share the volume pricing and Reserved Instance discounts by combining the usage across all accounts in the organization
+
+    
+        <tr>
             <td colspan=3><h3></h3></td>
         </tr>
         <tr>
