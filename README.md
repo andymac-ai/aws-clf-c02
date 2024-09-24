@@ -799,7 +799,7 @@ Domains of material covered in the exam:
             <td>helps plan application migration projects by automatically identifying servers, virtual machines (VMs), and network dependencies in on-premises data centers</td>
         </tr>
         <tr>
-            <td><img src="" width="50"/></td>
+            <td><img src="https://github.com/cgrundman/aws-clf-c02/blob/main/icons/Application-Migration-Service.png" width="50"/></td>
             <td><h4>Application Migration Service</h4></td>
             <td>allows you to migrate physical, virtual, and cloud source servers to AWS for a variety of supported operating systems (OS)</td>
         </tr>
